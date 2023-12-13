@@ -1,0 +1,206 @@
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[build]
+  publish = ".next"
+  command = "npm run build"
+
+[[redirects]]
+from = "/404-2"
+to = "/404"
+status = 301
+
+[[redirects]]
+from = "/blog/*"
+to = "/learn/:splat"
+status = 301
+
+[[redirects]]
+from = "/nova"
+to = "/learn/nova-2-speech-to-text-api"
+status = 301
+
+[[redirects]]
+from = "/nova2"
+to = "/learn/nova-2-speech-to-text-api"
+status = 301
+
+[[redirects]]
+from = "/ai-glossary/fundamentals/:slug"
+to = "/ai-glossary/:slug"
+status = 301
+
+[[redirects]]
+from = "/ai-glossary/models/:slug"
+to = "/ai-glossary/:slug"
+status = 301
+
+[[redirects]]
+from = "/ai-glossary/techniques/:slug"
+to = "/ai-glossary/:slug"
+status = 301
+
+[[redirects]]
+from = "/vuxworld"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/realpython"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/termsofservice"
+to = "/terms"
+status = 301
+
+[[redirects]]
+from = "/learn/bitcoin-beat-the-trough-of-sorrow"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/learn/hampanda-you-get-hams-for-playing-and-pandas-for-winning"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/privacypolicy"
+to = "/privacy"
+status = 301
+
+[[redirects]]
+from = "/product"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/speech-recognition-api"
+to = "/product/transcription"
+status = 301
+
+[[redirects]]
+from = "/product/use-cases"
+to = "/learn/case-study"
+status = 301
+
+[[redirects]]
+from = "/healthcare"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/product/speech-to-text-api-overview"
+to = "/product/transcription"
+status = 301
+
+[[redirects]]
+from = "/changelog/deepgram-on-premise-release-220831"
+to = "/changelog"
+status = 301
+
+[[redirects]]
+from = "/changelog/hindi-support"
+to = "/changelog"
+status = 301
+
+[[redirects]]
+from = "/changelog/introducing-improved-diarization"
+to = "/changelog"
+status = 301
+
+[[redirects]]
+from = "/deepgram-summit-on-demand"
+to = "/learn"
+status = 301
+
+[[redirects]]
+from = "/learn/undefined"
+to = "/learn"
+status = 301
+
+[[redirects]]
+from = "/product/overview"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/the-definitive-guide-to-speech-recognition"
+to = "https://offers.deepgram.com/the-definitive-guide-to-speech-recognition"
+status = 301
+
+[[redirects]]
+from = "/voiceofthefuturepodcast"
+to = "/learn"
+status = 301
+
+[[redirects]]
+from = "/learn/aiengineering"
+to = "/learn/ai--engineering"
+status = 301
+
+[[redirects]]
+from = "/solutions/voicebots"
+to = "/deepgram-for-voicebots-and-chatbots"
+status = 301
+
+[[redirects]]
+from = "/nova-2-speech-to-text-api"
+to = "/learn/nova-2-speech-to-text-api"
+status = 301
+
+[[redirects]]
+from = "/product/train"
+to = "/product/custom-training"
+status = 301
+
+[[redirects]]
+from = "/product/train"
+to = "/product/custom-training"
+status = 301
+
+[[redirects]]
+from = "/learn/console.deepgram.com"
+to = "https://console.deepgram.com"
+status = 301
+
+[[redirects]]
+from = "/changelog/playground.deepgram.com"
+to = "https://playground.deepgram.com"
+status = 301
+
+[[redirects]]
+from = "/changelog/playground.deepgram.com"
+to = "https://playground.deepgram.com"
+status = 301
+
+[[redirects]]
+from = "/changelog/general-availability-utterance-formatting"
+to = "https://www.youtube.com/watch?v=3gv8lbbuY-Q"
+status = 301
+
+[[redirects]]
+from = "/learn/starting-out-with-python-and-deepgram-live-streaming-audio"
+to = "/learn/python-deepgram-roundup"
+status = 301
+
+[[redirects]]
+from = "/built-with-deepgram/build-a-voice-controlled-car"
+to = "/built-with-deepgram/voice-controlled-car"
+status = 301
+
+[[redirects]]
+from = "/feed"
+to = "/blog.xml"
+status = 301
+
+[[redirects]]
+from = "/rss"
+to = "/blog.xml"
+status = 301
+
+[[redirects]]
+from = "/changelog/feed"
+to = "/changelog.xml"
+status = 301

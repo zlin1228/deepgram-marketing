@@ -1,0 +1,32 @@
+import { ArgsTable, Canvas, Meta, Story } from '@storybook/addon-docs';
+
+import Dropdown from 'molecules/Dropdown/Dropdown';
+import * as stories from 'molecules/Dropdown/storybook/Dropdown.stories.tsx';
+
+<Meta title="Components/Form/Dropdown" component={Dropdown} />
+
+# Dropdown
+
+Input selects are used to group together actions in a subview. They're useful for allowing users to select from a large
+amount of options, or to even search for options within the input field before selecting.
+
+## Usage
+
+`Select` can be used in any instance where you want the user to select an item from a select menu.
+
+### list
+
+The `list` prop accepts a ReactNode array, including a simple array of strings or a mapped array of React Components to
+allow for multiple elements and styling
+
+### label & selectName
+
+The `label` and `selectName` props are both optional and inherently light/dark mode optimized.
+
+<Canvas>
+  <Story name="Dropdown" story={stories.dropdown} />
+</Canvas>
+
+### Props
+
+<ArgsTable story="Dropdown" />

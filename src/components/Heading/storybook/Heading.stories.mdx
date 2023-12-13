@@ -1,0 +1,31 @@
+import { ArgsTable, Canvas, Meta, Story } from '@storybook/addon-docs';
+
+import ComponentHeading from 'components/Heading/Heading';
+import * as stories from 'components/Heading/storybook/Heading.stories.tsx';
+
+<Meta
+  title="Components/Heading"
+  component={ComponentHeading}
+  argTypes={{
+    eyebrow: {
+      control: { type: 'text' },
+      description: 'Copy for the eyebrow',
+    },
+    heading: {
+      control: { type: 'text' },
+      description: 'Copy for the heading',
+    },
+  }}
+/>
+
+# Heading Component
+
+This Component is used as a full width CTA Section
+
+<Canvas>
+  <Story name="Heading" story={stories.componentHeading} />
+</Canvas>
+
+### Props
+
+<ArgsTable story="Heading" />

@@ -1,0 +1,31 @@
+import { ArgsTable, Canvas, Meta, Story } from '@storybook/addon-docs';
+
+import ComponentHero from 'components/Hero/Hero';
+import * as stories from 'components/Hero/storybook/Hero.stories.tsx';
+
+<Meta
+  title="Components/Hero"
+  component={ComponentHero}
+  argTypes={{
+    userReview: {
+      control: { type: 'text' },
+      description: 'Copy for the userReview',
+    },
+    heading: {
+      control: { type: 'text' },
+      description: 'Copy for the heading',
+    },
+  }}
+/>
+
+# Hero Component
+
+This Component is used as a full width CTA Section
+
+<Canvas>
+  <Story name="Hero" story={stories.componentHero} />
+</Canvas>
+
+### Props
+
+<ArgsTable story="Hero" />

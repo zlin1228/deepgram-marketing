@@ -1,0 +1,27 @@
+import { ArgsTable, Canvas, Meta, Story } from '@storybook/addon-docs';
+
+import ConversionPanel from 'components/ConversionPanel/ConversionPanel';
+import * as stories from 'components/ConversionPanel/storybook/ConversionPanel.stories.tsx';
+
+<Meta
+  title="Components/Conversion Panel"
+  component={ConversionPanel}
+  argTypes={{
+    heading: {
+      control: { type: 'text' },
+      description: 'Copy for the heading',
+    },
+  }}
+/>
+
+# ConversionPanel Component
+
+This Component is used as a full width CTA Section
+
+<Canvas>
+  <Story name="Conversion Panel" story={stories.componentConversionPanel} />
+</Canvas>
+
+### Props
+
+<ArgsTable story="Conversion Panel" />

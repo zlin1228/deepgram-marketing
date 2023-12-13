@@ -1,0 +1,1476 @@
+fragment file on FileField {
+  id
+  title
+  filename
+  size
+  alt
+  url
+  width
+  height
+}
+
+fragment entityPerson on EntityPersonRecord {
+  id
+  __typename
+  name
+  slug
+  externalLink
+  headshot {
+    ...file
+  }
+  role
+  personCategory
+  twitch
+  twitter
+  linkedin
+  github
+  bio {
+    blocks
+    links
+    value
+  }
+  company {
+    ...entityCompany
+  }
+}
+
+fragment layoutMeta on LayoutSectionRecord {
+  id
+  __typename
+  idLink
+  internalName
+  paddingBottomDesktop
+  paddingBottomMobile
+  paddingBottomTablet
+  paddingTopDesktop
+  paddingTopMobile
+  paddingTopTablet
+  backgroundColor
+}
+
+fragment layoutSection on LayoutSectionRecord {
+  ...layoutMeta
+  component {
+    ... on ComponentHeadingRecord {
+      id
+      __typename
+    }
+    ... on ComponentTrustBarRecord {
+      id
+      __typename
+    }
+    ... on ComponentCardDeckRecord {
+      id
+      __typename
+    }
+    ... on ComponentSlideboxRecord {
+      id
+      __typename
+    }
+    ... on ComponentQuoteRecord {
+      id
+      __typename
+    }
+    ... on ComponentQuoteSliderRecord {
+      id
+      __typename
+    }
+    ... on ComponentConversionPanelRecord {
+      id
+      __typename
+    }
+    ... on ComponentAccordionRecord {
+      id
+      __typename
+    }
+    ... on ComponentSingleInstanceRecord {
+      id
+      __typename
+    }
+    ... on ComponentHeroRecord {
+      id
+      __typename
+    }
+    ... on ComponentImageRecord {
+      id
+      __typename
+    }
+    ... on ComponentSwitchbackRecord {
+      id
+      __typename
+    }
+    ... on ComponentPricingCardDeckRecord {
+      id
+      __typename
+    }
+    ... on ComponentFeatureListRecord {
+      id
+      __typename
+    }
+    ... on ComponentTestimonialConversionPanelRecord {
+      id
+      __typename
+    }
+    ... on ComponentCodeTableRecord {
+      id
+      __typename
+    }
+    ... on ComponentVideoRecord {
+      id
+      __typename
+    }
+    ... on ComponentComparisonTableRecord {
+      id
+      __typename
+    }
+    ... on ComponentCodeTableRecord {
+      id
+      __typename
+    }
+    ... on ComponentPricingTableRecord {
+      id
+      __typename
+    }
+  }
+}
+
+fragment layoutComponents on LayoutSectionRecord {
+  ...layoutMeta
+  component {
+    ... on ComponentHeadingRecord {
+      ...componentHeading
+    }
+    ... on ComponentTrustBarRecord {
+      ...componentTrustbar
+    }
+    ... on ComponentTrustBarRecord {
+      ...componentMultiTrustbar
+    }
+    ... on ComponentCardDeckRecord {
+      ...componentCardDeck
+    }
+    ... on ComponentSlideboxRecord {
+      ...componentSlidebox
+    }
+    ... on ComponentQuoteRecord {
+      ...componentQuote
+    }
+    ... on ComponentQuoteSliderRecord {
+      ...componentQuoteSlider
+    }
+    ... on ComponentConversionPanelRecord {
+      ...componentConversionPanel
+    }
+    ... on ComponentAccordionRecord {
+      ...componentAccordion
+    }
+    ... on ComponentSingleInstanceRecord {
+      ...componentSingleInstance
+    }
+    ... on ComponentHeroRecord {
+      ...componentHero
+    }
+    ... on ComponentImageRecord {
+      ...componentImage
+    }
+    ... on ComponentSwitchbackRecord {
+      ...componentSwitchback
+    }
+    ... on ComponentPricingCardDeckRecord {
+      ...componentPricingCardDeck
+    }
+    ... on ComponentFeatureListRecord {
+      ...componentFeatureList
+    }
+    ... on ComponentTestimonialConversionPanelRecord {
+      ...componentTestimonialConversionPanel
+    }
+    ... on ComponentCodeTableRecord {
+      ...componentCodeTable
+    }
+    ... on ComponentVideoRecord {
+      ...componentVideo
+    }
+    ... on ComponentComparisonTableRecord {
+      ...componentComparisonTable
+    }
+    ... on ComponentCodeTableRecord {
+      ...componentCodeTable
+    }
+    ... on ComponentPricingTableRecord {
+      ...componentPricingTable
+    }
+    ... on ComponentBentoBoxRecord {
+      ...componentBentoBox
+    }
+  }
+}
+
+fragment seo on SeoField {
+  description
+  title
+  twitterCard
+  image {
+    ...file
+  }
+}
+
+fragment templatePage on TemplatePageRecord {
+  id
+  __typename
+  internalName
+  noIndex
+  noHeader
+  noFooter
+  slug
+  seo {
+    ...seo
+  }
+  sections {
+    ...layoutComponents
+  }
+}
+fragment templatePageFull on TemplatePageRecord {
+  id
+  __typename
+  internalName
+  noIndex
+  noHeader
+  noFooter
+  slug
+  seo {
+    ...seo
+  }
+  sections {
+    ...layoutComponents
+  }
+}
+
+fragment componentCallToAction on ComponentCallToActionRecord {
+  id
+  __typename
+  internalName
+  buttonType
+  color
+  label
+  link
+  openInNewWindow
+  startIcon
+  endIcon
+  popup {
+    ...componentVideo
+    ...componentForm
+  }
+}
+
+fragment componentHeading on ComponentHeadingRecord {
+  id
+  __typename
+  internalName
+  animate
+  eyebrow
+  heading
+  headingColor
+  headingType
+  desktopHeadingSize
+  mobileHeadingSize
+  tabletHeadingSize
+  gradientBackgroundColor
+  headingBody: body {
+    blocks
+    links {
+      ...menuItem
+    }
+    value
+  }
+  bodyColor
+  callToActions {
+    ...componentCallToAction
+  }
+}
+
+fragment componentImage on ComponentImageRecord {
+  id
+  __typename
+  caption
+  imageDesktop {
+    ...file
+  }
+  imageMobile {
+    ...file
+  }
+}
+
+fragment componentMap on ComponentMapRecord {
+  id
+  __typename
+  internalName
+  isDarkMap
+  location {
+    latitude
+    longitude
+  }
+}
+
+fragment entityCompany on EntityCompanyRecord {
+  id
+  __typename
+  company
+  companyLogo {
+    ...componentImage
+  }
+  companyDarkLogo {
+    ...componentImage
+  }
+  siteUrl
+  twitch
+  twitter
+  github
+  facebook
+  linkedin
+  youtube
+  dribbble
+  benefits {
+    ...menuPricingItem
+  }
+  bio
+  businessNeeds
+  solution {
+    ...menuItem
+  }
+  industry {
+    id
+    heading
+    description
+  }
+}
+
+fragment componentTrustbar on ComponentTrustBarRecord {
+  id
+  __typename
+  internalName
+  isMarquee
+  company {
+    ...entityCompany
+  }
+  heading
+  desktopHeadingSize
+  mobileHeadingSize
+  tabletHeadingSize
+  logoHeight
+  callToAction {
+    ...componentCallToAction
+  }
+}
+
+fragment componentMultiTrustbar on ComponentTrustBarRecord {
+  id
+  __typename
+  internalName
+  company {
+    ...entityCompany
+  }
+  heading
+  desktopHeadingSize
+  mobileHeadingSize
+  tabletHeadingSize
+  logoHeight
+  callToAction {
+    ...componentCallToAction
+  }
+  multiTrustbar {
+    ...componentTrustbar
+  }
+}
+
+fragment componentCard on ComponentCardRecord {
+  id
+  __typename
+  internalName
+  cardbody: body {
+    blocks
+    links {
+      ...menuItem
+    }
+    value
+  }
+  callToAction {
+    ...componentCallToAction
+  }
+  image {
+    ...componentImage
+  }
+  cardIcon
+  heading
+  noHoverEffect
+}
+
+fragment componentIconCardDeck on ComponentCardDeckRecord {
+  id
+  __typename
+  internalName
+  variant
+  optionalHeading {
+    ...componentHeading
+  }
+  card {
+    ...componentCard
+    ...refBlogCard
+    ...refTemplateCaseStudy
+    ...refTemplatePodcast
+  }
+  addOns {
+    id
+    icon
+    body {
+      value
+    }
+  }
+}
+
+fragment componentCardDeck on ComponentCardDeckRecord {
+  id
+  __typename
+  internalName
+  variant
+  optionalHeading {
+    ...componentHeading
+  }
+  card {
+    ...componentCard
+    ...refBlogCard
+    ...refTemplateCaseStudy
+    ...componentIconCardDeck
+    ...refTemplatePodcast
+  }
+  addOns {
+    id
+    icon
+    body {
+      value
+    }
+  }
+}
+
+fragment componentTestimonialCard on ComponentTestimonialCardRecord {
+  id
+  __typename
+  internalName
+  statistics {
+    id
+    statisticValue
+    statisticLabel
+  }
+  quote {
+    ...componentQuote
+  }
+}
+
+fragment componentQuote on ComponentQuoteRecord {
+  id
+  __typename
+  internalName
+  person {
+    ...entityPerson
+  }
+  quoteCompany: company {
+    ...entityCompany
+  }
+  quoteText: quote
+  callToAction {
+    ...componentCallToAction
+  }
+  theme
+}
+
+fragment componentQuoteSlider on ComponentQuoteSliderRecord {
+  id
+  __typename
+  internalName
+  optionalHeading {
+    ...componentHeading
+  }
+  callToAction {
+    ...componentCallToAction
+  }
+  quotes {
+    ...componentQuote
+  }
+  singleRow
+}
+
+fragment componentForm on ComponentFormRecord {
+  id
+  __typename
+  internalName
+  formId
+  variant
+  inverted
+}
+
+fragment componentConversionPanel on ComponentConversionPanelRecord {
+  id
+  __typename
+  internalName
+  heading
+  headingType
+  desktopHeadingSize
+  tabletHeadingSize
+  mobileHeadingSize
+  body {
+    blocks
+    links
+    value
+  }
+  callToActions {
+    ...componentCallToAction
+  }
+  form {
+    ...componentForm
+  }
+  hasSocial
+  isGrayBorder
+  isContained
+}
+
+fragment componentTestimonialConversionPanel on ComponentTestimonialConversionPanelRecord {
+  id
+  __typename
+  internalName
+  conversionHeading {
+    ...componentHeading
+  }
+  conversionTrustBar {
+    ...componentTrustbar
+  }
+  conversionQuote {
+    ...componentQuote
+  }
+  formHeading
+  formBody
+  conversionForm {
+    ...componentForm
+  }
+}
+
+fragment componentComparisonTable on ComponentComparisonTableRecord {
+  id
+  __typename
+  tableTitle
+  tableComparisons {
+    id
+    companyIcon {
+      ...file
+    }
+    company {
+      ...entityCompany
+    }
+    companyData
+  }
+  tableSections {
+    id
+    sectionTitle
+    sectionTable
+  }
+}
+
+fragment componentFooter on ComponentFooterRecord {
+  id
+  __typename
+  internalName
+  heading
+  subhead
+  menuItem {
+    ...menuItem
+    menuItem {
+      ...menuItem
+    }
+  }
+  bottomFooter {
+    ...menuItem
+  }
+  form {
+    ...componentForm
+  }
+  disclaimerText
+}
+
+fragment menuItem on MenuItemRecord {
+  id
+  __typename
+  internalName
+  heading
+  url
+  icon
+  iconFile {
+    ...file
+  }
+  subhead
+}
+
+fragment componentAccordion on ComponentAccordionRecord {
+  id
+  __typename
+  internalName
+  heading
+  accordion {
+    ...menuAccordionItem
+  }
+}
+
+fragment menuAccordionItem on MenuAccordionItemRecord {
+  id
+  __typename
+  internalName
+  heading
+  body {
+    blocks
+    links
+    value
+  }
+}
+
+fragment templateBlog on TemplateBlogRecord {
+  id
+  __typename
+  internalName
+  seo {
+    ...seo
+  }
+  slug
+  title
+  author {
+    ...entityPerson
+  }
+  coAuthors {
+    ...entityPerson
+  }
+  category
+  excerpt
+  featuredImage {
+    ...file
+  }
+  publishDate
+  body {
+    blocks {
+      id
+      __typename
+      table
+    }
+    links {
+      ...componentImage
+      ...componentVideo
+    }
+    value
+  }
+  _publishedAt
+  _updatedAt
+  hideFromListing
+}
+fragment refBlogCard on TemplateBlogRecord {
+  id
+  __typename
+  internalName
+  slug
+  title
+  author {
+    ...entityPerson
+  }
+  coAuthors {
+    ...entityPerson
+  }
+  category
+  excerpt
+  featuredImage {
+    ...file
+  }
+  publishDate
+  _publishedAt
+  _updatedAt
+  hideFromListing
+}
+
+fragment templateBlogList on TemplateBlogRecord {
+  id
+  __typename
+  internalName
+  slug
+  title
+  author {
+    ...entityPerson
+  }
+  coAuthors {
+    ...entityPerson
+  }
+  category
+  excerpt
+  featuredImage {
+    ...file
+  }
+  publishDate
+}
+
+fragment templateSimpleBlogList on TemplateBlogRecord {
+  id
+  __typename
+  author {
+    ...entityPerson
+  }
+}
+
+fragment menuPricingItem on MenuPricingItemRecord {
+  id
+  __typename
+  heading
+  subhead
+  body
+  icon
+  iconColor
+}
+
+fragment componentPricingCard on ComponentPricingCardRecord {
+  id
+  __typename
+  internalName
+  icon
+  headingKicker
+  heading
+  headingBadge
+  subhead
+  body
+  bestFor
+  price
+  cardColor
+  isActive
+  models {
+    ...menuPricingItem
+  }
+  features {
+    ...menuPricingItem
+  }
+  addOns {
+    blocks
+    links
+    value
+  }
+  support {
+    ...menuPricingItem
+  }
+  callToAction {
+    ...componentCallToAction
+  }
+}
+
+fragment componentPricingCardDeck on ComponentPricingCardDeckRecord {
+  id
+  __typename
+  internalName
+  cards {
+    ...componentPricingCard
+  }
+}
+
+fragment componentSingleInstance on ComponentSingleInstanceRecord {
+  id
+  __typename
+  internalName
+  optionalHeading {
+    ...componentHeading
+  }
+  component
+  json
+  layout
+  leadershipList {
+    ...entityPerson
+  }
+  imageList {
+    ...componentImage
+  }
+  callToActions {
+    ...componentCallToAction
+  }
+}
+
+fragment componentAnnouncementBar on ComponentAnnouncementBarRecord {
+  id
+  __typename
+  internalName
+  icon {
+    ...file
+  }
+  heading {
+    blocks
+    links
+    value
+  }
+  callToAction {
+    ...componentCallToAction
+  }
+}
+
+fragment componentHero on ComponentHeroRecord {
+  id
+  __typename
+  internalName
+  layout
+  animate
+  heading
+  headingColor
+  headingType
+  mobileHeadingSize
+  tabletHeadingSize
+  desktopHeadingSize
+  bodyColor
+  isWideMedia
+  headingIcons {
+    ...componentImage
+  }
+  heroBody: body {
+    blocks
+    links {
+      ...componentForm
+    }
+    value
+  }
+  gradientBackgroundColor
+  callToActions {
+    ...componentCallToAction
+  }
+  announcementBar {
+    ...componentAnnouncementBar
+  }
+  userReview
+  references {
+    ...refBlogCard
+    ...refTemplateCaseStudy
+  }
+  form {
+    ...componentForm
+    ...componentImage
+    ...componentTestimonialCard
+    ...componentVideo
+  }
+}
+
+fragment componentSwitchback on ComponentSwitchbackRecord {
+  id
+  __typename
+  internalName
+  optionalHeading: heading {
+    ...componentHeading
+  }
+  reference {
+    ...componentImage
+    ...componentVideo
+    ...componentSlidebox
+    ...componentMap
+  }
+  reverse
+}
+
+fragment componentSlideboxItem on ComponentSlideboxItemRecord {
+  id
+  __typename
+  internalName
+  heading
+  audio {
+    ...file
+  }
+  audioName {
+    blocks
+    links
+    value
+  }
+  liveStreamingUrl
+  requestUrl {
+    blocks
+    links
+    value
+  }
+  payload {
+    blocks
+    links
+    value
+  }
+  response {
+    blocks
+    links
+    value
+  }
+  transcript {
+    blocks
+    links
+    value
+  }
+}
+
+fragment componentSlidebox on ComponentSlideboxRecord {
+  id
+  __typename
+  internalName
+  optionalHeading {
+    ...componentHeading
+  }
+  items {
+    ...componentSlideboxItem
+    ...componentFeatureList
+  }
+}
+
+fragment componentHeader on ComponentHeaderRecord {
+  id
+  __typename
+  internalName
+  logo {
+    ...file
+  }
+  menu {
+    ...menuItem
+    menuItem {
+      ...menuItem
+      menuItem {
+        ...menuItem
+      }
+    }
+  }
+  callToActions {
+    ...componentCallToAction
+  }
+  showGlobalSearch
+}
+
+fragment templateCaseStudyList on TemplateCaseStudyRecord {
+  id
+  __typename
+  internalName
+  title
+  category
+  featuredImage {
+    ...file
+  }
+  slug
+}
+
+fragment templateCaseStudy on TemplateCaseStudyRecord {
+  id
+  __typename
+  internalName
+  title
+  body {
+    links {
+      ...componentImage
+    }
+    value
+  }
+  category
+  company {
+    ...entityCompany
+  }
+  download
+  excerpt
+  featuredImage {
+    ...file
+  }
+  slug
+  seo {
+    ...seo
+  }
+  sections {
+    ...layoutComponents
+  }
+}
+fragment refTemplateCaseStudy on TemplateCaseStudyRecord {
+  id
+  __typename
+  internalName
+  title
+  category
+  slug
+  excerpt
+  featuredImage {
+    ...file
+  }
+  company {
+    ...entityCompany
+  }
+  download
+}
+
+fragment templateGlossary on TemplateGlossaryRecord {
+  id
+  seo {
+    description
+    title
+  }
+  slug
+  title
+  categoryPage
+  excerpt {
+    value
+  }
+  body {
+    blocks {
+      id
+      __typename
+      table
+    }
+    links {
+      ...componentImage
+      ...componentVideo
+    }
+    value
+  }
+  _updatedAt
+}
+
+fragment templateWebinar on TemplateExternalWebinarRecord {
+  id
+  __typename
+  internalName
+  title
+  url
+  thumbnail {
+    ...file
+  }
+}
+
+fragment templateResources on TemplateResourcesExternalRecord {
+  id
+  __typename
+  internalName
+  title
+  resourceType
+  link
+  thumbnail {
+    ...file
+  }
+}
+
+fragment menuFeatureItem on MenuFeatureItemRecord {
+  id
+  __typename
+  internalName
+  heading
+  subhead
+  featureCode
+  content {
+    blocks
+    links
+    value
+  }
+  sideContent {
+    blocks
+    links
+    value
+  }
+  isTranslationLayout
+}
+
+fragment componentFeatureList on ComponentFeatureListRecord {
+  id
+  __typename
+  internalName
+  optionalHeading {
+    ...componentHeading
+  }
+  audio {
+    ...file
+  }
+  features {
+    ...menuFeatureItem
+  }
+  layout
+}
+
+fragment templateNews on TemplateNewsRecord {
+  id
+  __typename
+  internalName
+  company {
+    ...entityCompany
+  }
+  title
+  url
+  publishDate
+}
+
+fragment templateChangelog on TemplateChangelogRecord {
+  id
+  __typename
+  internalName
+  seo {
+    ...seo
+  }
+  slug
+  title
+  author {
+    ...entityPerson
+  }
+  category
+  publishDate
+  body {
+    blocks
+    links
+    value
+  }
+}
+
+fragment entityTag on EntityTagRecord {
+  id
+  __typename
+  internalName
+  heading
+  category
+}
+
+fragment templateBuiltWithDeepgram on TemplateBuiltWithDeepgramRecord {
+  id
+  __typename
+  internalName
+  slug
+  seo {
+    ...seo
+  }
+  title
+  author {
+    ...entityPerson
+  }
+  body {
+    blocks
+    links {
+      ...componentImage
+    }
+    value
+  }
+  caseStudyReference {
+    id
+    __typename
+    internalName
+    slug
+  }
+  excerpt
+  featuredImage {
+    ...file
+  }
+  publishDate
+  videoUrl
+}
+
+fragment templateBuiltWithDeepgramList on TemplateBuiltWithDeepgramRecord {
+  id
+  __typename
+  internalName
+  slug
+  title
+  excerpt
+  featuredImage {
+    ...file
+  }
+  publishDate
+  tags {
+    ...entityTag
+  }
+}
+
+fragment componentVideo on ComponentVideoRecord {
+  id
+  __typename
+  internalName
+  title
+  videoUrl
+  showOnResourceHub
+  thumbnail {
+    ...file
+  }
+  videoFile {
+    ...file
+  }
+  autoPlay
+}
+
+fragment componentBentoSplitContent on ComponentBentoSplitContentRecord {
+  id
+  __typename
+  internalName
+  eyebrow
+  eyebrowIcon {
+    ...file
+  }
+  heading
+  content {
+    blocks
+    links
+    value
+  }
+  button {
+    ...componentCallToAction
+  }
+  reference {
+    ...componentImage
+  }
+}
+
+fragment componentBentoStackedImage on ComponentBentoStackedImageRecord {
+  id
+  __typename
+  internalName
+  eyebrow
+  eyebrowIcon {
+    ...file
+  }
+  heading
+  content {
+    blocks
+    links
+    value
+  }
+  button {
+    ...componentCallToAction
+  }
+  reference {
+    ...componentImage
+  }
+  topAsset
+}
+
+fragment componentBentoTrustBar on ComponentBentoTrustBarRecord {
+  id
+  __typename
+  internalName
+  heading
+  topLogos {
+    ...entityCompany
+  }
+  bottomLogos {
+    ...entityCompany
+  }
+  button {
+    ...componentCallToAction
+  }
+}
+
+fragment componentBentoBox on ComponentBentoBoxRecord {
+  id
+  __typename
+  internalName
+  cards {
+    ...componentBentoStackedImage
+    ...componentBentoSplitContent
+    ...componentBentoTrustBar
+  }
+}
+
+fragment templateLegal on TemplateLegalRecord {
+  id
+  __typename
+  internalName
+  seo {
+    ...seo
+  }
+  slug
+  title
+  body {
+    blocks
+    links
+    value
+  }
+}
+
+fragment templatePodcast on TemplatePodcastRecord {
+  id
+  __typename
+  internalName
+  seo {
+    ...seo
+  }
+  slug
+  title
+  podcastUrl
+  podcastAudioUrl
+  podcastAudioTitle
+  publishDate
+  body {
+    blocks
+    links {
+      ...componentImage
+      ...componentQuote
+      ...componentVideo
+    }
+    value
+  }
+  guest {
+    ...entityPerson
+  }
+  hostedBy {
+    ...entityPerson
+  }
+}
+
+fragment refTemplatePodcast on TemplatePodcastRecord {
+  id
+  __typename
+  internalName
+  seo {
+    ...seo
+  }
+  slug
+  title
+  podcastUrl
+  podcastAudioUrl
+  podcastAudioTitle
+  publishDate
+  guest {
+    ...entityPerson
+  }
+  hostedBy {
+    ...entityPerson
+  }
+}
+
+fragment templatePodcastList on TemplatePodcastRecord {
+  id
+  __typename
+  internalName
+  slug
+  title
+}
+
+fragment templatePartner on TemplatePartnerRecord {
+  id
+  __typename
+  internalName
+  seo {
+    ...seo
+  }
+  slug
+  title
+  category
+  excerpt {
+    blocks
+    links
+    value
+  }
+  thumbnailImage {
+    ...file
+  }
+  category
+  youtubeUrl
+  caseStudy {
+    ...refTemplateCaseStudy
+  }
+  featureListHeading {
+    ...componentHeading
+  }
+  features {
+    ...menuFeatureItem
+  }
+}
+
+fragment templatePartnerList on TemplatePartnerRecord {
+  id
+  __typename
+  internalName
+  slug
+  title
+  category
+  caseStudy {
+    featuredImage {
+      ...file
+    }
+  }
+  thumbnailImage {
+    ...file
+  }
+}
+
+fragment entityCategory on EntityCategoryRecord {
+  id
+  __typename
+  categoryName
+  title
+  description {
+    blocks
+    links
+    value
+  }
+  image {
+    ...file
+  }
+}
+
+fragment componentCodeTable on ComponentCodeTableRecord {
+  id
+  __typename
+  tableHeading: heading {
+    heading
+    body {
+      value
+    }
+  }
+  codeSnippet {
+    id
+    code {
+      value
+    }
+  }
+}
+
+fragment templateEventsDetail on TemplateEventsDetailRecord {
+  id
+  __typename
+  internalName
+  slug
+  title
+  excerpt
+  description {
+    blocks
+    links
+    value
+  }
+  eventFormId
+  eventType
+  eventDateTime
+  speakers {
+    ...entityPerson
+  }
+  eventGallery {
+    ...componentImage
+  }
+  eventLocation {
+    ...componentSwitchback
+  }
+}
+
+fragment componentPricingTable on ComponentPricingTableRecord {
+  id
+  __typename
+  title
+  subheading
+  tables {
+    id
+    tabLabel
+    labelIcon
+    tableRows {
+      id
+      headerRow
+      highlightedRow
+      tableRowGroups {
+        id
+        tableCells {
+          id
+          text
+          textAlignment
+          showTooltip
+          tooltipText
+          rowSpan
+          textBadge
+          icon
+          backgroundColor
+          callToAction {
+            ...componentCallToAction
+          }
+        }
+      }
+    }
+  }
+}

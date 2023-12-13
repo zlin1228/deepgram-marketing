@@ -1,0 +1,31 @@
+import { ArgsTable, Canvas, Meta, Story } from '@storybook/addon-docs';
+
+import TrustBar from 'components/TrustBar/TrustBar';
+import * as stories from 'components/TrustBar/storybook/TrustBar.stories';
+
+<Meta title="Components/Trust Bar" component={TrustBar} />
+
+# Trust Bar
+
+The TrustBar is a a component that takes an array of companies and renders their logos into a bar with an option of two
+different inherent effects.
+
+### Shutter
+
+The bar shows 5 different logos at a time contained at 1170px that "shutter" up and get replaced infinitly.
+
+This view is only available in tablet viewports and above and required a minimum of 5 logos. When in mobile, it will
+default to the `scrolling` view.
+
+### Scrolling
+
+The bar scrolls at full screen width from right to left showing all listed company logos. The bar will pause when
+hovered over.
+
+<Canvas>
+  <Story name="Trust Bar" story={stories.trustBar} />
+</Canvas>
+
+### Props
+
+<ArgsTable story="Trust Bar" />

@@ -1,0 +1,44 @@
+import { ArgsTable, Canvas, Meta, Story } from '@storybook/addon-docs';
+
+import AnnouncementBar from 'components/AnnouncementBar/AnnouncementBar';
+import * as stories from 'components/AnnouncementBar/storybook/AnnouncementBar.stories.tsx';
+
+<Meta
+  title="Components/AnnouncementBar"
+  component={AnnouncementBar}
+  argTypes={{
+    background: {
+      control: { type: 'select' },
+      options: ['White', 'Dark Gradient'],
+    },
+    eyebrow: {
+      control: { type: 'text' },
+      description: 'Copy for the eyebrow',
+    },
+    heading: {
+      control: { type: 'text' },
+      description: 'Copy for the heading',
+    },
+    variant: {
+      control: { type: 'select' },
+      options: ['centered', 'split'],
+    },
+    externalVideo: {
+      control: { type: 'select' },
+      options: ['None', 'Youtube'],
+      mapping: externalVideo,
+    },
+  }}
+/>
+
+# AnnouncementBar Component
+
+This Component is used as a full width CTA Section
+
+<Canvas>
+  <Story name="AnnouncementBar" story={stories.cnnouncementBar} />
+</Canvas>
+
+### Props
+
+<ArgsTable story="AnnouncementBar" />

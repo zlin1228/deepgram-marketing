@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1840"
+   height="842"
+   viewBox="0 0 1840 842"
+   fill="none"
+   version="1.1"
+   id="svg43"
+   sodipodi:docname="conversion.svg"
+   inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview45"
+     pagecolor="#000000"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.61184378"
+     inkscape:cx="691.35294"
+     inkscape:cy="443.74072"
+     inkscape:window-width="1390"
+     inkscape:window-height="1027"
+     inkscape:window-x="81"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg43" />
+  <g
+     opacity="0.8"
+     filter="url(#filter0_f_2075_2560)"
+     id="g25"
+     transform="matrix(0.88256418,0,0,0.9577527,230.29977,73.582495)">
+    <mask
+       id="mask0_2075_2560"
+       maskUnits="userSpaceOnUse"
+       x="69"
+       y="159"
+       width="1279"
+       height="220">
+      <rect
+         width="1277.1"
+         height="218.49699"
+         transform="matrix(1,-8.74228e-8,-8.74228e-8,-1,69.9512,378.484)"
+         fill="#d9d9d9"
+         id="rect2"
+         x="0"
+         y="0" />
+    </mask>
+    <g
+       mask="url(#mask0_2075_2560)"
+       id="g23">
+      <g
+         filter="url(#filter1_f_2075_2560)"
+         id="g21">
+        <ellipse
+           cx="170.867"
+           cy="79.833603"
+           rx="170.867"
+           ry="79.833603"
+           transform="matrix(1,-8.74228e-8,-8.74228e-8,-1,167.889,443.013)"
+           fill="#b80042"
+           id="ellipse5" />
+        <ellipse
+           cx="170.867"
+           cy="79.833603"
+           rx="170.867"
+           ry="79.833603"
+           transform="matrix(1,-8.74228e-8,-8.74228e-8,-1,-136.047,440.479)"
+           fill="#e61a32"
+           id="ellipse7" />
+        <ellipse
+           cx="170.867"
+           cy="79.833603"
+           rx="170.867"
+           ry="79.833603"
+           transform="matrix(1,-8.74228e-8,-8.74228e-8,-1,340.686,441.493)"
+           fill="#cb37ff"
+           id="ellipse9" />
+        <ellipse
+           cx="170.867"
+           cy="79.833603"
+           rx="170.867"
+           ry="79.833603"
+           transform="matrix(1,-8.74228e-8,-8.74228e-8,-1,562.229,441.492)"
+           fill="#7622ff"
+           id="ellipse11" />
+        <ellipse
+           cx="170.867"
+           cy="79.833603"
+           rx="170.867"
+           ry="79.833603"
+           transform="matrix(1,-8.74228e-8,-8.74228e-8,-1,783.773,441.492)"
+           fill="#4131ff"
+           id="ellipse13" />
+        <ellipse
+           cx="170.867"
+           cy="79.833603"
+           rx="170.867"
+           ry="79.833603"
+           transform="matrix(1,-8.74228e-8,-8.74228e-8,-1,896.555,444.026)"
+           fill="#53e0ff"
+           id="ellipse15" />
+        <ellipse
+           cx="170.867"
+           cy="79.833603"
+           rx="170.867"
+           ry="79.833603"
+           transform="matrix(1,-8.74228e-8,-8.74228e-8,-1,1005.31,441.492)"
+           fill="#38edac"
+           id="ellipse17" />
+        <ellipse
+           cx="170.867"
+           cy="79.833603"
+           rx="170.867"
+           ry="79.833603"
+           transform="matrix(1,-8.74228e-8,-8.74228e-8,-1,1176.18,441.492)"
+           fill="#04e896"
+           id="ellipse19" />
+      </g>
+    </g>
+  </g>
+  <defs
+     id="defs41">
+    <filter
+       id="filter0_f_2075_2560"
+       x="-210.049"
+       y="0.812012"
+       width="1837.1"
+       height="657.672"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood27" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="BackgroundImageFix"
+         result="shape"
+         id="feBlend29" />
+      <feGaussianBlur
+         stdDeviation="140"
+         result="effect1_foregroundBlur_2075_2560"
+         id="feGaussianBlur31" />
+    </filter>
+    <filter
+       id="filter1_f_2075_2560"
+       x="-236.047"
+       y="180.812"
+       width="1853.96"
+       height="363.214"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood34" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="BackgroundImageFix"
+         result="shape"
+         id="feBlend36" />
+      <feGaussianBlur
+         stdDeviation="50"
+         result="effect1_foregroundBlur_2075_2560"
+         id="feGaussianBlur38" />
+    </filter>
+  </defs>
+</svg>

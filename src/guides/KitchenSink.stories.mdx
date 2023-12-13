@@ -1,0 +1,15 @@
+import { Meta, Story } from '@storybook/addon-docs';
+
+import * as kitchenSink from 'guides/KitchenSink.stories.tsx';
+
+<Meta
+  title="Get Started/Kitchen Sink"
+  parameters={{
+    viewMode: 'docs',
+    previewTabs: {
+      canvas: { hidden: true },
+    },
+  }}
+/>
+
+<Story name="Kitchen Sink" story={kitchenSink.kitchenSink} />

@@ -1,0 +1,28 @@
+node_modules/
+
+.env*
+
+build/
+
+package-lock.json
+yarn-error.log
+
+.eslintcache
+
+storybook-static/
+public/blog*.xml
+public/changelog*.xml
+public/sitemap*.xml
+public/robots.txt
+
+.vscode
+.DS_Store
+.react-templates
+
+# next files
+.next/
+.stackbit/
+.netlify/
+
+# sentry files
+.sentryclirc

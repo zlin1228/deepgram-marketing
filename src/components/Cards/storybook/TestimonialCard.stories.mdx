@@ -1,0 +1,20 @@
+import { ArgsTable, Canvas, Meta, Story } from '@storybook/addon-docs';
+
+import TestimonialCard from 'components/Cards/TestimonialCard/TestimonialCard';
+import * as stories from 'components/Cards/TestimonialCard/storybook/TestimonialCard.stories';
+
+<Meta title="Components/Cards/TestimonialCard" component={TestimonialCard} />
+
+# Testimonial Card
+
+The TestimonialCard is a a card consisting of half-width wrapping stat block and a single quote component.
+
+<Canvas>
+  <Story name="TestimonialCard" story={stories.componentTestimonialCard} />
+</Canvas>
+
+### Props
+
+Testimonial Card extends FlexProps and IComponentTestimonialCardRecord
+
+<ArgsTable story="TestimonialCard" />

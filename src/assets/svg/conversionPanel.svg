@@ -1,0 +1,1324 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1440"
+   height="659"
+   viewBox="0 0 1440 659"
+   fill="none"
+   version="1.1"
+   id="svg420"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <rect
+     width="100%"
+     height="100%"
+     fill="black"
+     id="rect2" />
+  <g
+     opacity="0.8"
+     filter="url(#filter0_f_766_7558)"
+     id="g27"
+     transform="matrix(1,0,0,0.9437678,0,37.028005)">
+    <mask
+       id="mask0_766_7558"
+       maskUnits="userSpaceOnUse"
+       x="69"
+       y="159"
+       width="1279"
+       height="220">
+      <rect
+         width="1277.1"
+         height="218.49699"
+         transform="matrix(1,-8.74228e-8,-8.74228e-8,-1,69.9512,378.484)"
+         fill="#d9d9d9"
+         id="rect4"
+         x="0"
+         y="0" />
+    </mask>
+    <g
+       mask="url(#mask0_766_7558)"
+       id="g25">
+      <g
+         filter="url(#filter1_f_766_7558)"
+         id="g23">
+        <ellipse
+           cx="170.867"
+           cy="79.833603"
+           rx="170.867"
+           ry="79.833603"
+           transform="matrix(1,-8.74228e-8,-8.74228e-8,-1,167.889,443.013)"
+           fill="#b80042"
+           id="ellipse7" />
+        <ellipse
+           cx="170.867"
+           cy="79.833603"
+           rx="170.867"
+           ry="79.833603"
+           transform="matrix(1,-8.74228e-8,-8.74228e-8,-1,-136.047,440.479)"
+           fill="#e61a32"
+           id="ellipse9" />
+        <ellipse
+           cx="170.867"
+           cy="79.833603"
+           rx="170.867"
+           ry="79.833603"
+           transform="matrix(1,-8.74228e-8,-8.74228e-8,-1,340.686,441.493)"
+           fill="#cb37ff"
+           id="ellipse11" />
+        <ellipse
+           cx="170.867"
+           cy="79.833603"
+           rx="170.867"
+           ry="79.833603"
+           transform="matrix(1,-8.74228e-8,-8.74228e-8,-1,562.229,441.492)"
+           fill="#7622ff"
+           id="ellipse13" />
+        <ellipse
+           cx="170.867"
+           cy="79.833603"
+           rx="170.867"
+           ry="79.833603"
+           transform="matrix(1,-8.74228e-8,-8.74228e-8,-1,783.773,441.492)"
+           fill="#4131ff"
+           id="ellipse15" />
+        <ellipse
+           cx="170.867"
+           cy="79.833603"
+           rx="170.867"
+           ry="79.833603"
+           transform="matrix(1,-8.74228e-8,-8.74228e-8,-1,896.555,444.026)"
+           fill="#53e0ff"
+           id="ellipse17" />
+        <ellipse
+           cx="170.867"
+           cy="79.833603"
+           rx="170.867"
+           ry="79.833603"
+           transform="matrix(1,-8.74228e-8,-8.74228e-8,-1,1005.31,441.492)"
+           fill="#38edac"
+           id="ellipse19" />
+        <ellipse
+           cx="170.867"
+           cy="79.833603"
+           rx="170.867"
+           ry="79.833603"
+           transform="matrix(1,-8.74228e-8,-8.74228e-8,-1,1176.18,441.492)"
+           fill="#04e896"
+           id="ellipse21" />
+      </g>
+    </g>
+  </g>
+  <g
+     style="mix-blend-mode:overlay"
+     filter="url(#filter2_f_766_7558)"
+     id="g31"
+     transform="matrix(1,0,0,0.92821847,0,38.258411)">
+    <ellipse
+       cx="951.35303"
+       cy="275.38101"
+       rx="342.14801"
+       ry="57.6035"
+       fill="#ffffff"
+       id="ellipse29" />
+  </g>
+  <g
+     style="mix-blend-mode:overlay"
+     filter="url(#filter3_f_766_7558)"
+     id="g35"
+     transform="matrix(1,0,0,0.94840703,0,27.408224)">
+    <ellipse
+       cx="465.64801"
+       cy="273.63599"
+       rx="342.14801"
+       ry="57.6035"
+       fill="#ffffff"
+       id="ellipse33" />
+  </g>
+  <g
+     style="mix-blend-mode:overlay"
+     filter="url(#filter4_f_766_7558)"
+     id="g39"
+     transform="matrix(1,0,0,0.89008454,0,57.423824)">
+    <ellipse
+       cx="749.521"
+       cy="264.83301"
+       rx="342.14801"
+       ry="57.6035"
+       fill="#ffffff"
+       id="ellipse37" />
+  </g>
+  <rect
+     x="-91"
+     y="232.54"
+     width="1599.5"
+     height="199.944"
+     fill="url(#paint0_linear_766_7558)"
+     id="rect41" />
+  <rect
+     x="-1508.5"
+     y="-590.48401"
+     width="1599.5"
+     height="160"
+     transform="scale(-1)"
+     fill="url(#paint1_linear_766_7558)"
+     id="rect43"
+     style="fill:url(#paint1_linear_766_7558)" />
+  <g
+     style="mix-blend-mode:overlay"
+     id="g81">
+    <ellipse
+       cx="0.990175"
+       cy="0.990692"
+       rx="0.990175"
+       ry="0.990692"
+       transform="matrix(0.96009 -0.279691 0.279585 0.960121 844.078 122.928)"
+       fill="white"
+       id="ellipse45" />
+    <ellipse
+       cx="0.990175"
+       cy="0.990692"
+       rx="0.990175"
+       ry="0.990692"
+       transform="matrix(0.96009 -0.279691 0.279585 0.960121 890.891 157.192)"
+       fill="white"
+       id="ellipse47" />
+    <ellipse
+       cx="0.990175"
+       cy="0.990692"
+       rx="0.990175"
+       ry="0.990692"
+       transform="matrix(0.96009 -0.279691 0.279585 0.960121 964.777 233.457)"
+       fill="white"
+       id="ellipse49" />
+    <ellipse
+       cx="0.990175"
+       cy="0.990692"
+       rx="0.990175"
+       ry="0.990692"
+       transform="matrix(0.96009 -0.279691 0.279585 0.960121 953.174 131.346)"
+       fill="white"
+       id="ellipse51" />
+    <ellipse
+       cx="0.990175"
+       cy="0.990692"
+       rx="0.990175"
+       ry="0.990692"
+       transform="matrix(0.96009 -0.279691 0.279585 0.960121 1017.59 156.195)"
+       fill="white"
+       id="ellipse53" />
+    <ellipse
+       cx="0.990175"
+       cy="0.990692"
+       rx="0.990175"
+       ry="0.990692"
+       transform="matrix(0.96009 -0.279691 0.279585 0.960121 899.852 250.307)"
+       fill="white"
+       id="ellipse55" />
+    <ellipse
+       cx="0.990654"
+       cy="0.990174"
+       rx="0.990654"
+       ry="0.990174"
+       transform="matrix(0.518411 0.855099 -0.854931 0.518794 1018.11 223.687)"
+       fill="white"
+       id="ellipse57" />
+    <ellipse
+       cx="0.990654"
+       cy="0.990174"
+       rx="0.990654"
+       ry="0.990174"
+       transform="matrix(0.518411 0.855099 -0.854931 0.518794 997.155 277.791)"
+       fill="white"
+       id="ellipse59" />
+    <ellipse
+       cx="0.990654"
+       cy="0.990174"
+       rx="0.990654"
+       ry="0.990174"
+       transform="matrix(0.518411 0.855099 -0.854931 0.518794 942.675 368.923)"
+       fill="white"
+       id="ellipse61" />
+    <ellipse
+       cx="0.990654"
+       cy="0.990174"
+       rx="0.990654"
+       ry="0.990174"
+       transform="matrix(0.518411 0.855099 -0.854931 0.518794 1038.24 331.305)"
+       fill="white"
+       id="ellipse63" />
+    <ellipse
+       cx="0.990654"
+       cy="0.990174"
+       rx="0.990654"
+       ry="0.990174"
+       transform="matrix(0.518411 0.855099 -0.854931 0.518794 1030.94 399.985)"
+       fill="white"
+       id="ellipse65" />
+    <ellipse
+       cx="0.990654"
+       cy="0.990174"
+       rx="0.990654"
+       ry="0.990174"
+       transform="matrix(0.518411 0.855099 -0.854931 0.518794 909.589 310.529)"
+       fill="white"
+       id="ellipse67" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.501213 0.865388 -0.864971 -0.501713 1241.63 220.752)"
+       fill="white"
+       id="circle69" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.501213 0.865388 -0.864971 -0.501713 1184.13 228.3)"
+       fill="white"
+       id="circle71" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.501213 0.865388 -0.864971 -0.501713 1078.07 224.162)"
+       fill="white"
+       id="circle73" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.501213 0.865388 -0.864971 -0.501713 1156.92 290.03)"
+       fill="white"
+       id="circle75" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.501213 0.865388 -0.864971 -0.501713 1093.19 316.549)"
+       fill="white"
+       id="circle77" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.501213 0.865388 -0.864971 -0.501713 1113.4 167.116)"
+       fill="white"
+       id="circle79" />
+  </g>
+  <g
+     style="mix-blend-mode:overlay"
+     id="g119">
+    <ellipse
+       cx="0.990175"
+       cy="0.990692"
+       rx="0.990175"
+       ry="0.990692"
+       transform="matrix(0.96009 -0.279691 0.279585 0.960121 844.078 122.928)"
+       fill="white"
+       id="ellipse83" />
+    <ellipse
+       cx="0.990175"
+       cy="0.990692"
+       rx="0.990175"
+       ry="0.990692"
+       transform="matrix(0.96009 -0.279691 0.279585 0.960121 890.891 157.192)"
+       fill="white"
+       id="ellipse85" />
+    <ellipse
+       cx="0.990175"
+       cy="0.990692"
+       rx="0.990175"
+       ry="0.990692"
+       transform="matrix(0.96009 -0.279691 0.279585 0.960121 964.777 233.457)"
+       fill="white"
+       id="ellipse87" />
+    <ellipse
+       cx="0.990175"
+       cy="0.990692"
+       rx="0.990175"
+       ry="0.990692"
+       transform="matrix(0.96009 -0.279691 0.279585 0.960121 953.174 131.346)"
+       fill="white"
+       id="ellipse89" />
+    <ellipse
+       cx="0.990175"
+       cy="0.990692"
+       rx="0.990175"
+       ry="0.990692"
+       transform="matrix(0.96009 -0.279691 0.279585 0.960121 1017.59 156.195)"
+       fill="white"
+       id="ellipse91" />
+    <ellipse
+       cx="0.990175"
+       cy="0.990692"
+       rx="0.990175"
+       ry="0.990692"
+       transform="matrix(0.96009 -0.279691 0.279585 0.960121 899.852 250.307)"
+       fill="white"
+       id="ellipse93" />
+    <ellipse
+       cx="0.990654"
+       cy="0.990174"
+       rx="0.990654"
+       ry="0.990174"
+       transform="matrix(0.518411 0.855099 -0.854931 0.518794 1018.11 223.687)"
+       fill="white"
+       id="ellipse95" />
+    <ellipse
+       cx="0.990654"
+       cy="0.990174"
+       rx="0.990654"
+       ry="0.990174"
+       transform="matrix(0.518411 0.855099 -0.854931 0.518794 997.155 277.791)"
+       fill="white"
+       id="ellipse97" />
+    <ellipse
+       cx="0.990654"
+       cy="0.990174"
+       rx="0.990654"
+       ry="0.990174"
+       transform="matrix(0.518411 0.855099 -0.854931 0.518794 942.675 368.923)"
+       fill="white"
+       id="ellipse99" />
+    <ellipse
+       cx="0.990654"
+       cy="0.990174"
+       rx="0.990654"
+       ry="0.990174"
+       transform="matrix(0.518411 0.855099 -0.854931 0.518794 1038.24 331.305)"
+       fill="white"
+       id="ellipse101" />
+    <ellipse
+       cx="0.990654"
+       cy="0.990174"
+       rx="0.990654"
+       ry="0.990174"
+       transform="matrix(0.518411 0.855099 -0.854931 0.518794 1030.94 399.985)"
+       fill="white"
+       id="ellipse103" />
+    <ellipse
+       cx="0.990654"
+       cy="0.990174"
+       rx="0.990654"
+       ry="0.990174"
+       transform="matrix(0.518411 0.855099 -0.854931 0.518794 909.589 310.529)"
+       fill="white"
+       id="ellipse105" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.501213 0.865388 -0.864971 -0.501713 1241.63 220.752)"
+       fill="white"
+       id="circle107" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.501213 0.865388 -0.864971 -0.501713 1184.13 228.3)"
+       fill="white"
+       id="circle109" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.501213 0.865388 -0.864971 -0.501713 1078.07 224.162)"
+       fill="white"
+       id="circle111" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.501213 0.865388 -0.864971 -0.501713 1156.92 290.03)"
+       fill="white"
+       id="circle113" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.501213 0.865388 -0.864971 -0.501713 1093.19 316.549)"
+       fill="white"
+       id="circle115" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.501213 0.865388 -0.864971 -0.501713 1113.4 167.116)"
+       fill="white"
+       id="circle117" />
+  </g>
+  <g
+     opacity="0.5"
+     id="g197">
+    <g
+       style="mix-blend-mode:overlay"
+       id="g157">
+      <ellipse
+         cx="0.990175"
+         cy="0.990692"
+         rx="0.990175"
+         ry="0.990692"
+         transform="matrix(0.192072 0.981381 -0.981402 0.191964 862.403 70.3613)"
+         fill="white"
+         id="ellipse121" />
+      <ellipse
+         cx="0.990175"
+         cy="0.990692"
+         rx="0.990175"
+         ry="0.990692"
+         transform="matrix(0.192072 0.981381 -0.981402 0.191964 824.062 113.897)"
+         fill="white"
+         id="ellipse123" />
+      <ellipse
+         cx="0.990175"
+         cy="0.990692"
+         rx="0.990175"
+         ry="0.990692"
+         transform="matrix(0.192072 0.981381 -0.981402 0.191964 741.452 180.613)"
+         fill="white"
+         id="ellipse125" />
+      <ellipse
+         cx="0.990175"
+         cy="0.990692"
+         rx="0.990175"
+         ry="0.990692"
+         transform="matrix(0.192072 0.981381 -0.981402 0.191964 844.193 178.255)"
+         fill="white"
+         id="ellipse127" />
+      <ellipse
+         cx="0.990175"
+         cy="0.990692"
+         rx="0.990175"
+         ry="0.990692"
+         transform="matrix(0.192072 0.981381 -0.981402 0.191964 813.643 240.167)"
+         fill="white"
+         id="ellipse129" />
+      <ellipse
+         cx="0.990175"
+         cy="0.990692"
+         rx="0.990175"
+         ry="0.990692"
+         transform="matrix(0.192072 0.981381 -0.981402 0.191964 730.518 114.434)"
+         fill="white"
+         id="ellipse131" />
+      <ellipse
+         cx="0.990654"
+         cy="0.990174"
+         rx="0.990654"
+         ry="0.990174"
+         transform="matrix(-0.89832 0.43928 -0.439676 -0.898187 746.379 234.605)"
+         fill="white"
+         id="ellipse133" />
+      <ellipse
+         cx="0.990654"
+         cy="0.990174"
+         rx="0.990654"
+         ry="0.990174"
+         transform="matrix(-0.89832 0.43928 -0.439676 -0.898187 694.382 208.866)"
+         fill="white"
+         id="ellipse135" />
+      <ellipse
+         cx="0.990654"
+         cy="0.990174"
+         rx="0.990654"
+         ry="0.990174"
+         transform="matrix(-0.89832 0.43928 -0.439676 -0.898187 608.528 146.398)"
+         fill="white"
+         id="ellipse137" />
+      <ellipse
+         cx="0.990654"
+         cy="0.990174"
+         rx="0.990654"
+         ry="0.990174"
+         transform="matrix(-0.89832 0.43928 -0.439676 -0.898187 637.384 244.965)"
+         fill="white"
+         id="ellipse139" />
+      <ellipse
+         cx="0.990654"
+         cy="0.990174"
+         rx="0.990654"
+         ry="0.990174"
+         transform="matrix(-0.89832 0.43928 -0.439676 -0.898187 569.641 231.507)"
+         fill="white"
+         id="ellipse141" />
+      <ellipse
+         cx="0.990654"
+         cy="0.990174"
+         rx="0.990654"
+         ry="0.990174"
+         transform="matrix(-0.89832 0.43928 -0.439676 -0.898187 669.664 118.707)"
+         fill="white"
+         id="ellipse143" />
+      <circle
+         cx="0.990696"
+         cy="0.990696"
+         r="0.990696"
+         transform="matrix(-0.816722 -0.577126 0.577587 -0.816262 729.167 457.485)"
+         fill="white"
+         id="circle145" />
+      <circle
+         cx="0.990696"
+         cy="0.990696"
+         r="0.990696"
+         transform="matrix(-0.816722 -0.577126 0.577587 -0.816262 726.829 399.54)"
+         fill="white"
+         id="circle147" />
+      <circle
+         cx="0.990696"
+         cy="0.990696"
+         r="0.990696"
+         transform="matrix(-0.816722 -0.577126 0.577587 -0.816262 740.504 294.283)"
+         fill="white"
+         id="circle149" />
+      <circle
+         cx="0.990696"
+         cy="0.990696"
+         r="0.990696"
+         transform="matrix(-0.816722 -0.577126 0.577587 -0.816262 667.801 366.88)"
+         fill="white"
+         id="circle151" />
+      <circle
+         cx="0.990696"
+         cy="0.990696"
+         r="0.990696"
+         transform="matrix(-0.816722 -0.577126 0.577587 -0.816262 647.13 301.02)"
+         fill="white"
+         id="circle153" />
+      <circle
+         cx="0.990696"
+         cy="0.990696"
+         r="0.990696"
+         transform="matrix(-0.816722 -0.577126 0.577587 -0.816262 794.135 334.607)"
+         fill="white"
+         id="circle155" />
+    </g>
+    <g
+       style="mix-blend-mode:overlay"
+       id="g195">
+      <ellipse
+         cx="0.990175"
+         cy="0.990692"
+         rx="0.990175"
+         ry="0.990692"
+         transform="matrix(0.192072 0.981381 -0.981402 0.191964 862.403 70.3613)"
+         fill="white"
+         id="ellipse159" />
+      <ellipse
+         cx="0.990175"
+         cy="0.990692"
+         rx="0.990175"
+         ry="0.990692"
+         transform="matrix(0.192072 0.981381 -0.981402 0.191964 824.062 113.897)"
+         fill="white"
+         id="ellipse161" />
+      <ellipse
+         cx="0.990175"
+         cy="0.990692"
+         rx="0.990175"
+         ry="0.990692"
+         transform="matrix(0.192072 0.981381 -0.981402 0.191964 741.452 180.613)"
+         fill="white"
+         id="ellipse163" />
+      <ellipse
+         cx="0.990175"
+         cy="0.990692"
+         rx="0.990175"
+         ry="0.990692"
+         transform="matrix(0.192072 0.981381 -0.981402 0.191964 844.193 178.255)"
+         fill="white"
+         id="ellipse165" />
+      <ellipse
+         cx="0.990175"
+         cy="0.990692"
+         rx="0.990175"
+         ry="0.990692"
+         transform="matrix(0.192072 0.981381 -0.981402 0.191964 813.643 240.167)"
+         fill="white"
+         id="ellipse167" />
+      <ellipse
+         cx="0.990175"
+         cy="0.990692"
+         rx="0.990175"
+         ry="0.990692"
+         transform="matrix(0.192072 0.981381 -0.981402 0.191964 730.518 114.434)"
+         fill="white"
+         id="ellipse169" />
+      <ellipse
+         cx="0.990654"
+         cy="0.990174"
+         rx="0.990654"
+         ry="0.990174"
+         transform="matrix(-0.89832 0.43928 -0.439676 -0.898187 746.379 234.605)"
+         fill="white"
+         id="ellipse171" />
+      <ellipse
+         cx="0.990654"
+         cy="0.990174"
+         rx="0.990654"
+         ry="0.990174"
+         transform="matrix(-0.89832 0.43928 -0.439676 -0.898187 694.382 208.866)"
+         fill="white"
+         id="ellipse173" />
+      <ellipse
+         cx="0.990654"
+         cy="0.990174"
+         rx="0.990654"
+         ry="0.990174"
+         transform="matrix(-0.89832 0.43928 -0.439676 -0.898187 608.528 146.398)"
+         fill="white"
+         id="ellipse175" />
+      <ellipse
+         cx="0.990654"
+         cy="0.990174"
+         rx="0.990654"
+         ry="0.990174"
+         transform="matrix(-0.89832 0.43928 -0.439676 -0.898187 637.384 244.965)"
+         fill="white"
+         id="ellipse177" />
+      <ellipse
+         cx="0.990654"
+         cy="0.990174"
+         rx="0.990654"
+         ry="0.990174"
+         transform="matrix(-0.89832 0.43928 -0.439676 -0.898187 569.641 231.507)"
+         fill="white"
+         id="ellipse179" />
+      <ellipse
+         cx="0.990654"
+         cy="0.990174"
+         rx="0.990654"
+         ry="0.990174"
+         transform="matrix(-0.89832 0.43928 -0.439676 -0.898187 669.664 118.707)"
+         fill="white"
+         id="ellipse181" />
+      <circle
+         cx="0.990696"
+         cy="0.990696"
+         r="0.990696"
+         transform="matrix(-0.816722 -0.577126 0.577587 -0.816262 729.167 457.485)"
+         fill="white"
+         id="circle183" />
+      <circle
+         cx="0.990696"
+         cy="0.990696"
+         r="0.990696"
+         transform="matrix(-0.816722 -0.577126 0.577587 -0.816262 726.829 399.54)"
+         fill="white"
+         id="circle185" />
+      <circle
+         cx="0.990696"
+         cy="0.990696"
+         r="0.990696"
+         transform="matrix(-0.816722 -0.577126 0.577587 -0.816262 740.504 294.283)"
+         fill="white"
+         id="circle187" />
+      <circle
+         cx="0.990696"
+         cy="0.990696"
+         r="0.990696"
+         transform="matrix(-0.816722 -0.577126 0.577587 -0.816262 667.801 366.88)"
+         fill="white"
+         id="circle189" />
+      <circle
+         cx="0.990696"
+         cy="0.990696"
+         r="0.990696"
+         transform="matrix(-0.816722 -0.577126 0.577587 -0.816262 647.13 301.02)"
+         fill="white"
+         id="circle191" />
+      <circle
+         cx="0.990696"
+         cy="0.990696"
+         r="0.990696"
+         transform="matrix(-0.816722 -0.577126 0.577587 -0.816262 794.135 334.607)"
+         fill="white"
+         id="circle193" />
+    </g>
+  </g>
+  <g
+     style="mix-blend-mode:overlay"
+     id="g235">
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(0.299691 0.954036 -0.953842 0.300308 503.952 87.316)"
+       fill="white"
+       id="circle199" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(0.299691 0.954036 -0.953842 0.300308 470.701 134.874)"
+       fill="white"
+       id="circle201" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(0.299691 0.954036 -0.953842 0.300308 396.052 210.412)"
+       fill="white"
+       id="circle203" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(0.299691 0.954036 -0.953842 0.300308 497.846 196.62)"
+       fill="white"
+       id="circle205" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(0.299691 0.954036 -0.953842 0.300308 474.376 261.58)"
+       fill="white"
+       id="circle207" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(0.299691 0.954036 -0.953842 0.300308 377.841 145.831)"
+       fill="white"
+       id="circle209" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.843775 0.536999 -0.536352 -0.843803 406.942 263.544)"
+       fill="white"
+       id="circle211" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.843775 0.536999 -0.536352 -0.843803 352.434 243.747)"
+       fill="white"
+       id="circle213" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.843775 0.536999 -0.536352 -0.843803 260.214 191.204)"
+       fill="white"
+       id="circle215" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.843775 0.536999 -0.536352 -0.843803 299.825 285.989)"
+       fill="white"
+       id="circle217" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.843775 0.536999 -0.536352 -0.843803 231.039 280.157)"
+       fill="white"
+       id="circle219" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.843775 0.536999 -0.536352 -0.843803 317.867 156.86)"
+       fill="white"
+       id="circle221" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.875361 -0.4828 0.483086 -0.875942 414.599 487.061)"
+       fill="white"
+       id="circle223" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.875361 -0.4828 0.483086 -0.875942 405.841 429.71)"
+       fill="white"
+       id="circle225" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.875361 -0.4828 0.483086 -0.875942 407.734 323.534)"
+       fill="white"
+       id="circle227" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.875361 -0.4828 0.483086 -0.875942 343.579 403.814)"
+       fill="white"
+       id="circle229" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.875361 -0.4828 0.483086 -0.875942 315.731 340.636)"
+       fill="white"
+       id="circle231" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.875361 -0.4828 0.483086 -0.875942 465.487 357.65)"
+       fill="white"
+       id="circle233" />
+  </g>
+  <g
+     style="mix-blend-mode:overlay"
+     id="g273">
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(0.299691 0.954036 -0.953842 0.300308 503.952 87.316)"
+       fill="white"
+       id="circle237" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(0.299691 0.954036 -0.953842 0.300308 470.701 134.874)"
+       fill="white"
+       id="circle239" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(0.299691 0.954036 -0.953842 0.300308 396.052 210.412)"
+       fill="white"
+       id="circle241" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(0.299691 0.954036 -0.953842 0.300308 497.846 196.62)"
+       fill="white"
+       id="circle243" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(0.299691 0.954036 -0.953842 0.300308 474.376 261.58)"
+       fill="white"
+       id="circle245" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(0.299691 0.954036 -0.953842 0.300308 377.841 145.831)"
+       fill="white"
+       id="circle247" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.843775 0.536999 -0.536352 -0.843803 406.942 263.544)"
+       fill="white"
+       id="circle249" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.843775 0.536999 -0.536352 -0.843803 352.434 243.747)"
+       fill="white"
+       id="circle251" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.843775 0.536999 -0.536352 -0.843803 260.214 191.204)"
+       fill="white"
+       id="circle253" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.843775 0.536999 -0.536352 -0.843803 299.825 285.989)"
+       fill="white"
+       id="circle255" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.843775 0.536999 -0.536352 -0.843803 231.039 280.157)"
+       fill="white"
+       id="circle257" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.843775 0.536999 -0.536352 -0.843803 317.867 156.86)"
+       fill="white"
+       id="circle259" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.875361 -0.4828 0.483086 -0.875942 414.599 487.061)"
+       fill="white"
+       id="circle261" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.875361 -0.4828 0.483086 -0.875942 405.841 429.71)"
+       fill="white"
+       id="circle263" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.875361 -0.4828 0.483086 -0.875942 407.734 323.534)"
+       fill="white"
+       id="circle265" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.875361 -0.4828 0.483086 -0.875942 343.579 403.814)"
+       fill="white"
+       id="circle267" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.875361 -0.4828 0.483086 -0.875942 315.731 340.636)"
+       fill="white"
+       id="circle269" />
+    <circle
+       cx="0.990696"
+       cy="0.990696"
+       r="0.990696"
+       transform="matrix(-0.875361 -0.4828 0.483086 -0.875942 465.487 357.65)"
+       fill="white"
+       id="circle271" />
+  </g>
+  <defs
+     id="defs418">
+    <filter
+       id="filter0_f_766_7558"
+       x="-210.049"
+       y="0.812012"
+       width="1837.1"
+       height="657.672"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood303" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="BackgroundImageFix"
+         result="shape"
+         id="feBlend305" />
+      <feGaussianBlur
+         stdDeviation="140"
+         result="effect1_foregroundBlur_766_7558"
+         id="feGaussianBlur307" />
+    </filter>
+    <filter
+       id="filter1_f_766_7558"
+       x="-236.047"
+       y="180.812"
+       width="1853.96"
+       height="363.214"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood310" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="BackgroundImageFix"
+         result="shape"
+         id="feBlend312" />
+      <feGaussianBlur
+         stdDeviation="50"
+         result="effect1_foregroundBlur_766_7558"
+         id="feGaussianBlur314" />
+    </filter>
+    <filter
+       id="filter2_f_766_7558"
+       x="409.205"
+       y="17.7771"
+       width="1084.3"
+       height="515.207"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood317" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="BackgroundImageFix"
+         result="shape"
+         id="feBlend319" />
+      <feGaussianBlur
+         stdDeviation="100"
+         result="effect1_foregroundBlur_766_7558"
+         id="feGaussianBlur321" />
+    </filter>
+    <filter
+       id="filter3_f_766_7558"
+       x="-76.5"
+       y="16.0325"
+       width="1084.3"
+       height="515.207"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood324" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="BackgroundImageFix"
+         result="shape"
+         id="feBlend326" />
+      <feGaussianBlur
+         stdDeviation="100"
+         result="effect1_foregroundBlur_766_7558"
+         id="feGaussianBlur328" />
+    </filter>
+    <filter
+       id="filter4_f_766_7558"
+       x="207.373"
+       y="7.22925"
+       width="1084.3"
+       height="515.207"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood331" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="BackgroundImageFix"
+         result="shape"
+         id="feBlend333" />
+      <feGaussianBlur
+         stdDeviation="100"
+         result="effect1_foregroundBlur_766_7558"
+         id="feGaussianBlur335" />
+    </filter>
+    <filter
+       id="filter5_d_766_7558"
+       x="925"
+       y="300.821"
+       width="167"
+       height="52"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood338" />
+      <feColorMatrix
+         in="SourceAlpha"
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         result="hardAlpha"
+         id="feColorMatrix340" />
+      <feOffset
+         dy="1"
+         id="feOffset342" />
+      <feGaussianBlur
+         stdDeviation="1"
+         id="feGaussianBlur344" />
+      <feColorMatrix
+         type="matrix"
+         values="0 0 0 0 0.14902 0 0 0 0 0.172549 0 0 0 0 0.203922 0 0 0 0.05 0"
+         id="feColorMatrix346" />
+      <feBlend
+         mode="normal"
+         in2="BackgroundImageFix"
+         result="effect1_dropShadow_766_7558"
+         id="feBlend348" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="effect1_dropShadow_766_7558"
+         result="shape"
+         id="feBlend350" />
+    </filter>
+    <filter
+       id="filter6_dd_766_7558"
+       x="1081"
+       y="286.821"
+       width="216"
+       height="78"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood353" />
+      <feColorMatrix
+         in="SourceAlpha"
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         result="hardAlpha"
+         id="feColorMatrix355" />
+      <feOffset
+         dx="-10"
+         id="feOffset357" />
+      <feGaussianBlur
+         stdDeviation="7.5"
+         id="feGaussianBlur359" />
+      <feComposite
+         in2="hardAlpha"
+         operator="out"
+         id="feComposite361" />
+      <feColorMatrix
+         type="matrix"
+         values="0 0 0 0 0.588235 0 0 0 0 0.635294 0 0 0 0 1 0 0 0 0.2 0"
+         id="feColorMatrix363" />
+      <feBlend
+         mode="normal"
+         in2="BackgroundImageFix"
+         result="effect1_dropShadow_766_7558"
+         id="feBlend365" />
+      <feColorMatrix
+         in="SourceAlpha"
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         result="hardAlpha"
+         id="feColorMatrix367" />
+      <feOffset
+         dx="10"
+         id="feOffset369" />
+      <feGaussianBlur
+         stdDeviation="7.5"
+         id="feGaussianBlur371" />
+      <feComposite
+         in2="hardAlpha"
+         operator="out"
+         id="feComposite373" />
+      <feColorMatrix
+         type="matrix"
+         values="0 0 0 0 0.219608 0 0 0 0 0.929412 0 0 0 0 0.67451 0 0 0 0.2 0"
+         id="feColorMatrix375" />
+      <feBlend
+         mode="normal"
+         in2="effect1_dropShadow_766_7558"
+         result="effect2_dropShadow_766_7558"
+         id="feBlend377" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="effect2_dropShadow_766_7558"
+         result="shape"
+         id="feBlend379" />
+    </filter>
+    <linearGradient
+       id="paint0_linear_766_7558"
+       x1="708.75"
+       y1="232.54"
+       x2="708.75"
+       y2="432.484"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-opacity="0"
+         id="stop382" />
+      <stop
+         offset="1"
+         id="stop384" />
+    </linearGradient>
+    <linearGradient
+       id="paint1_linear_766_7558"
+       x1="2308.25"
+       y1="592.484"
+       x2="2308.25"
+       y2="752.484"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-3017,-1182.968)">
+      <stop
+         stop-opacity="0"
+         id="stop387" />
+      <stop
+         offset="1"
+         id="stop389" />
+    </linearGradient>
+    <linearGradient
+       id="paint2_linear_766_7558"
+       x1="954.105"
+       y1="301.821"
+       x2="1272"
+       y2="301.821"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#201CFF"
+         id="stop392" />
+      <stop
+         offset="0.895833"
+         stop-color="#13EF95"
+         id="stop394" />
+    </linearGradient>
+    <linearGradient
+       id="paint3_linear_766_7558"
+       x1="954.105"
+       y1="301.821"
+       x2="1272"
+       y2="301.821"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#201CFF"
+         id="stop397" />
+      <stop
+         offset="0.895833"
+         stop-color="#13EF95"
+         id="stop399" />
+    </linearGradient>
+    <linearGradient
+       id="paint4_linear_766_7558"
+       x1="89.5"
+       y1="306.221"
+       x2="1344.5"
+       y2="306.221"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#E61A32"
+         id="stop402" />
+      <stop
+         offset="0.291667"
+         stop-color="#AE03C2"
+         id="stop404" />
+      <stop
+         offset="0.598958"
+         stop-color="#5200FF"
+         id="stop406" />
+      <stop
+         offset="0.770833"
+         stop-color="#378DAF"
+         id="stop408" />
+      <stop
+         offset="1"
+         stop-color="#38EDAC"
+         id="stop410" />
+    </linearGradient>
+    <linearGradient
+       id="paint5_linear_766_7558"
+       x1="720"
+       y1="369.663"
+       x2="720"
+       y2="248.968"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop413" />
+      <stop
+         offset="1"
+         stop-opacity="0"
+         id="stop415" />
+    </linearGradient>
+  </defs>
+</svg>

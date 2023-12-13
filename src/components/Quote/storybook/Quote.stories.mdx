@@ -1,0 +1,29 @@
+import { ArgsTable, Canvas, Meta, Story } from '@storybook/addon-docs';
+
+import Quote from 'components/Quote/Quote';
+import * as stories from 'components/Quote/storybook/Quote.stories.tsx';
+
+<Meta
+  title="Components/Quote"
+  component={Quote}
+  argTypes={{
+    quote: { control: { type: 'text' } },
+  }}
+/>
+
+# Quote
+
+The quote is a full width testimonial style quote that includes optional `avatar`, `company`, `name`, `rating`, and
+`role`. Any fields may be omitted to create any variation of quotes.
+
+### Rating
+
+The ratings takes a number 1-5 by .1 increments and shows correct stars accordingly.
+
+<Canvas>
+  <Story name="Quote" story={stories.QuoteStory} />
+</Canvas>
+
+### Props
+
+<ArgsTable story="Quote" />

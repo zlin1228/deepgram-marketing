@@ -1,0 +1,31 @@
+import { ArgsTable, Canvas, Meta, Story } from '@storybook/addon-docs';
+
+import Accordion from 'components/Accordion/Accordion';
+import * as stories from 'components/Accordion/storybook/Accordion.stories.tsx';
+
+<Meta
+  title="Components/Accordion"
+  component={Accordion}
+  argTypes={{
+    backgroundIsDark: {
+      control: { type: 'boolean' },
+    },
+    heading: {
+      control: { type: 'text' },
+      description: 'Copy for the heading',
+    },
+  }}
+/>
+
+# Accordion Component
+
+An accordion displays a list of headers with additional information shown when clicked on. Use accordions when you want
+to break down long or complex portions of text into smaller chunks.
+
+<Canvas>
+  <Story name="Accordion" story={stories.accordion} />
+</Canvas>
+
+### Props
+
+<ArgsTable story="Accordion" />

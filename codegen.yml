@@ -1,0 +1,27 @@
+schema:
+  "https://graphql.datocms.com":
+      headers:
+        Authorization: "Bearer ${NEXT_PUBLIC_DATOCMS_API_TOKEN}"
+documents:
+  - ./src/**/*.gql
+generates:
+  src/lib/types.ts:
+    plugins:
+      - typescript:
+          typesPrefix: I
+          disableDescriptions: true
+      - typescript-operations:
+          globalNamespace: true
+    config:
+      declarationKind: "interface"
+      inlineFragmentTypes: "combine"
+  src/lib/sdk.ts:
+    plugins:
+      - typescript-react-apollo:
+          documentVariableSuffix: 'Query'
+          fragmentVariableSuffix: 'Fragment'
+          nonOptionalTypename: true
+hooks:
+  afterAllFileWrite:
+    - prettier --write
+    - eslint --fix

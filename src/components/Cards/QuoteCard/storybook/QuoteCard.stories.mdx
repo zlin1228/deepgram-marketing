@@ -1,0 +1,10 @@
+import { Canvas, Meta, Story } from '@storybook/addon-docs';
+
+import QuoteCard from 'components/Cards/QuoteCard/QuoteCard';
+import * as stories from 'components/Cards/QuoteCard/storybook/QuoteCard.stories.tsx';
+
+<Meta title="Components/Cards/Quote Card" component={QuoteCard} />
+
+<Canvas>
+  <Story name="Quote Card" story={stories.quoteCard} />
+</Canvas>

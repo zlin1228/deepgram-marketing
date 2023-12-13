@@ -1,0 +1,146 @@
+query getComponentHeading($id: ItemId!) {
+  data: componentHeading(filter: { id: { eq: $id } }) {
+    ...componentHeading
+  }
+}
+
+query getComponentImage($id: ItemId!) {
+  data: componentImage(filter: { id: { eq: $id } }) {
+    ...componentImage
+  }
+}
+
+query getComponentTrustBar($id: ItemId!) {
+  data: componentTrustBar(filter: { id: { eq: $id } }) {
+    ...componentTrustbar
+    multiTrustbar {
+      ...componentTrustbar
+    }
+  }
+}
+
+query getComponentCardDeck($id: ItemId!) {
+  data: componentCardDeck(filter: { id: { eq: $id } }) {
+    ...componentIconCardDeck
+  }
+}
+
+query getComponentQuote($id: ItemId!) {
+  data: componentQuote(filter: { id: { eq: $id } }) {
+    ...componentQuote
+  }
+}
+
+query getComponentQuoteSlider($id: ItemId!) {
+  data: componentQuoteSlider(filter: { id: { eq: $id } }) {
+    ...componentQuoteSlider
+  }
+}
+
+query getComponentConversionPanel($id: ItemId!) {
+  data: componentConversionPanel(filter: { id: { eq: $id } }) {
+    ...componentConversionPanel
+  }
+}
+
+query getComponentAccordion($id: ItemId!) {
+  data: componentAccordion(filter: { id: { eq: $id } }) {
+    ...componentAccordion
+  }
+}
+
+query getComponentSingleInstance($id: ItemId!) {
+  data: componentSingleInstance(filter: { id: { eq: $id } }) {
+    ...componentSingleInstance
+  }
+}
+
+query getComponentSlidebox($id: ItemId!) {
+  data: componentSlidebox(filter: { id: { eq: $id } }) {
+    ...componentSlidebox
+  }
+}
+
+query getComponentHero($id: ItemId!) {
+  data: componentHero(filter: { id: { eq: $id } }) {
+    ...componentHero
+  }
+}
+
+query getComponentSwitchback($id: ItemId!) {
+  data: componentSwitchback(filter: { id: { eq: $id } }) {
+    ...componentSwitchback
+  }
+}
+
+query getComponentTestimonialConversionPanel($id: ItemId!) {
+  data: componentTestimonialConversionPanel(filter: { id: { eq: $id } }) {
+    ...componentTestimonialConversionPanel
+  }
+}
+
+query getComponentPricingCardDeck($id: ItemId!) {
+  data: componentPricingCardDeck(filter: { id: { eq: $id } }) {
+    ...componentPricingCardDeck
+  }
+}
+
+query getComponentFeatureList($id: ItemId!) {
+  data: componentFeatureList(filter: { id: { eq: $id } }) {
+    ...componentFeatureList
+  }
+}
+
+query getComponentComparisonTable($id: ItemId!) {
+  data: componentComparisonTable(filter: { id: { eq: $id } }) {
+    ...componentComparisonTable
+  }
+}
+
+query getComponentCodeTable($id: ItemId!) {
+  data: componentCodeTable(filter: { id: { eq: $id } }) {
+    ...componentCodeTable
+  }
+}
+
+query getComponentVideo($id: ItemId!) {
+  data: componentVideo(filter: { id: { eq: $id } }) {
+    ...componentVideo
+  }
+}
+
+query getComponentCodeTable($id: ItemId!) {
+  data: componentCodeTable(filter: { id: { eq: $id } }) {
+    ...componentCodeTable
+  }
+}
+
+query getComponentPricingTable($id: ItemId!) {
+  data: componentPricingTable(filter: { id: { eq: $id } }) {
+    ...componentPricingTable
+  }
+}
+
+query getComponentBentoSplitContent($id: ItemId!) {
+  data: componentBentoSplitContent(filter: { id: { eq: $id } }) {
+    ...componentBentoSplitContent
+  }
+}
+
+query getComponentBentoStackedImage($id: ItemId!) {
+  data: componentBentoStackedImage(filter: { id: { eq: $id } }) {
+    ...componentBentoStackedImage
+  }
+}
+
+query getComponentBentoTrustBar($id: ItemId!) {
+  data: componentBentoTrustBar(filter: { id: { eq: $id } }) {
+    ...componentBentoTrustBar
+  }
+}
+
+query getComponentBentoBox($id: ItemId!) {
+  data: componentBentoBox(filter: { id: { eq: $id } }) {
+    ...componentBentoBox
+  }
+}

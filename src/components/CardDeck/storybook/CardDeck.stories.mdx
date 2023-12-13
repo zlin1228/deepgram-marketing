@@ -1,0 +1,18 @@
+import { ArgsTable, Canvas, Meta, Story } from '@storybook/addon-docs';
+
+import CardDeck from 'components/CardDeck/CardDeck';
+import * as stories from 'components/CardDeck/storybook/CardDeck.stories';
+
+<Meta title="Components/CardDeck" component={CardDeck} />
+
+# CardDeck
+
+The CardDeck is a a component that takes an array of Cards
+
+<Canvas>
+  <Story name="CardDeck" story={stories.cardDeck} />
+</Canvas>
+
+### Props
+
+<ArgsTable story="CardDeck" />

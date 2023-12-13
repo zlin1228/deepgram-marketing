@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@font-face {
+  font-family: 'ABCFavorit';
+  src: url('/fonts/ABCFavorit-Bold-Trial.woff') format('woff'),
+        url('/fonts/ABCFavorit-Bold-Trial.woff2') format('woff2'),
+        url('/fonts/ABCFavorit-Bold-Trial.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ABCFavorit';
+  src: url('/fonts/ABCFavorit-BoldItalic-Trial.woff') format('woff'),
+        url('/fonts/ABCFavorit-BoldItalic-Trial.woff2') format('woff2'),
+        url('/fonts/ABCFavorit-BoldItalic-Trial.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ABCFavorit';
+  src: url('/fonts/ABCFavorit-Medium-Trial.woff') format('woff'),
+        url('/fonts/ABCFavorit-Medium-Trial.woff2') format('woff2'),
+        url('/fonts/ABCFavorit-Medium-Trial.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ABCFavorit';
+  src: url('/fonts/ABCFavorit-MediumItalic-Trial.woff') format('woff'),
+        url('/fonts/ABCFavorit-MediumItalic-Trial.woff2') format('woff2'),
+        url('/fonts/ABCFavorit-MediumItalic-Trial.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ABCFavorit';
+  src: url('/fonts/ABCFavorit-Regular-Trial.woff') format('woff'),
+        url('/fonts/ABCFavorit-Regular-Trial.woff2') format('woff2'),
+        url('/fonts/ABCFavorit-Regular-Trial.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ABCFavorit';
+  src: url('/fonts/ABCFavorit-RegularItalic-Trial.woff') format('woff'),
+        url('/fonts/ABCFavorit-RegularItalic-Trial.woff2') format('woff2'),
+        url('/fonts/ABCFavorit-RegularItalic-Trial.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ABCFavorit';
+  src: url('/fonts/ABCFavorit-Book-Trial.woff') format('woff'),
+        url('/fonts/ABCFavorit-Book-Trial.woff2') format('woff2'),
+        url('/fonts/ABCFavorit-Book-Trial.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ABCFavorit';
+  src: url('/fonts/ABCFavorit-BookItalic-Trial.woff') format('woff'),
+        url('/fonts/ABCFavorit-BookItalic-Trial.woff2') format('woff2'),
+        url('/fonts/ABCFavorit-BookItalic-Trial.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ABCFavorit';
+  src: url('/fonts/ABCFavorit-Light-Trial.woff') format('woff'),
+        url('/fonts/ABCFavorit-Light-Trial.woff2') format('woff2'),
+        url('/fonts/ABCFavorit-Light-Trial.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ABCFavorit';
+  src: url('/fonts/ABCFavorit-LightItalic-Trial.woff') format('woff'),
+        url('/fonts/ABCFavorit-LightItalic-Trial.woff2') format('woff2'),
+        url('/fonts/ABCFavorit-LightItalic-Trial.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}

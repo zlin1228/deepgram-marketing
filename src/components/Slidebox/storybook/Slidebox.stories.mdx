@@ -1,0 +1,18 @@
+import { ArgsTable, Canvas, Meta, Story } from '@storybook/addon-docs';
+
+import ComponentSlidebox from 'components/Slidebox/Slidebox';
+import * as stories from 'components/Slidebox/storybook/Slidebox.stories.tsx';
+
+<Meta title="Components/Slidebox" component={ComponentSlidebox} />
+
+## Component Slidebox
+
+This component allows the user to toggle between showing or hiding content.
+
+<Canvas>
+  <Story name="Slidebox" story={stories.componentSlidebox} />
+</Canvas>
+
+### Props
+
+<ArgsTable story="Slidebox" />

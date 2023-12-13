@@ -1,0 +1,23 @@
+import { ArgsTable, Canvas, Meta, Story } from '@storybook/addon-docs';
+
+import QuoteSlider from 'components/QuoteSlider/QuoteWall';
+import * as stories from 'components/QuoteSlider/storybook/QuoteSlider.stories.tsx';
+
+<Meta title="Components/Quote Slider" component={QuoteSlider} />
+
+# Quote
+
+The quote is a full width testimonial style quote that includes optional `avatar`, `company`, `name`, `rating`, and
+`role`. Any fields may be omitted to create any variation of quotes.
+
+### Rating
+
+The ratings takes a number 1-5 by .1 increments and shows correct stars accordingly.
+
+<Canvas>
+  <Story name="Quote Slider" story={stories.QuoteSliderStory} />
+</Canvas>
+
+### Props
+
+<ArgsTable story="Quote Slider" />

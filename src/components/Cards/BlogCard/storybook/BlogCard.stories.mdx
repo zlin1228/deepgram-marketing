@@ -1,0 +1,10 @@
+import { Canvas, Meta, Story } from '@storybook/addon-docs';
+
+import BlogCard from 'components/Cards/BlogCard/BlogCard';
+import * as stories from 'components/Cards/BlogCard/storybook/BlogCard.stories.tsx';
+
+<Meta title="Components/Cards/Blog Card" component={BlogCard} />
+
+<Canvas>
+  <Story name="Blog Card" story={stories.blogCard} />
+</Canvas>

@@ -1,0 +1,102 @@
+import { ArgsTable, Canvas, Meta, Story } from '@storybook/addon-docs';
+
+import { colorListArray } from 'atoms/colors/colors';
+
+import MetricsSection from 'components/MetricsSection/MetricsSection';
+import * as stories from 'components/MetricsSection/storybook/MetricsSection.stories';
+
+import { iconMap, metricVariantMap } from 'utils/storyUtils.stories.tsx';
+
+<Meta
+  title="Components/Metrics Section"
+  component={MetricsSection}
+  argTypes={{
+    variant: {
+      options: ['card', 'centered', 'action-1', 'action-2', 'accent-line', 'minimal'],
+      description: 'The variant of the component',
+      control: { type: 'select' },
+    },
+    icon: {
+      options: Object.keys(iconMap),
+      mapping: iconMap,
+      description: 'The icon to display above the heading. Takes any ReactNode, but should be an icon.',
+      control: { type: 'select' },
+    },
+    metrics: {
+      options: Object.keys(metricVariantMap),
+      mapping: metricVariantMap,
+      description: 'The icon to display above the heading. Takes any ReactNode, but should be an icon.',
+      control: { type: 'select' },
+    },
+    cardBackgroundColor: {
+      description:
+        'The background color of the card. Variant: card. Choose a color by referencing the values in color atom',
+      options: [...colorListArray, undefined],
+      control: { type: 'select' },
+    },
+    accentLineColor: {
+      description:
+        'The color of the accent line. Variant: center, accent-line. Choose a color by referencing the values in color atom',
+      options: [...colorListArray, undefined],
+      control: { type: 'select' },
+    },
+    headingTextColor: {
+      description: 'The color of the component heading. Choose a color by referencing the values in color atom',
+      options: [...colorListArray, undefined],
+      control: { type: 'select' },
+    },
+    descriptionTextColor: {
+      description: 'The color of the component description. Choose a color by referencing the values in color atom',
+      options: [...colorListArray, undefined],
+      control: { type: 'select' },
+    },
+  }}
+/>
+
+# Metrics Section
+
+Metrics sections are useful for communicating authority and social proof to users.
+
+## Usage
+
+#### Variant
+
+The `variant` prop is required and determines what variant the component is
+
+#### Heading
+
+The `heading` prop is required. The `headingTextColor` prop is optional and determines the text color of `heading`
+
+#### Description
+
+The `description` prop is required. The `descriptionTextColor` prop is optional and determines the text color of
+`description`
+
+#### Icon
+
+The `icon` prop is optional and determines the icon to show above `heading`
+
+#### Card Background Color
+
+The `cardBackgroundColor` prop is optional and determines the background color of the `card` variant
+
+#### Accent Line Color
+
+The `accentLineColor` prop is optional and determines the accent line color of the `centered` and `accent-line` variants
+
+### Metric Props
+
+The `metricHeadingTextColor` prop is optional and determines the color of the metric value
+
+The `metricDescriptionTextColor` prop is optional and determines the color of the metric description in the `action-1`
+and `action-2` variants
+
+The `metricCtaTextColor` prop is optional and determines the color of the metric CTA in the `accent-line` variant
+
+<Canvas>
+  <Story name="Metrics Section" story={stories.metricsSection} />
+</Canvas>
+
+### Props
+
+<ArgsTable story="Metrics Section" />

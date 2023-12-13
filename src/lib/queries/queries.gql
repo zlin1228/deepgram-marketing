@@ -1,0 +1,568 @@
+#import "./fragments.graphql"
+
+query DefaultPagePaths {
+  allTemplatePages(first: "100") {
+    id
+    slug
+  }
+  allTemplateLegals {
+    id
+    slug
+  }
+  allHideBlogs: allTemplateBlogs(filter: { hideFromListing: { eq: true } }, orderBy: publishDate_DESC, first: 100) {
+    ...templateBlogList
+  }
+}
+
+query AllTemplatePage {
+  allTemplatePages(first: "100") {
+    id
+    slug
+  }
+}
+
+query templatePageData($slug: String) {
+  templatePage(filter: { slug: { eq: $slug } }) {
+    ...templatePage
+  }
+}
+query templatePageFullData($slug: String) {
+  templatePage(filter: { slug: { eq: $slug } }) {
+    ...templatePageFull
+  }
+}
+
+query GlobalCompanyHeaderFooter {
+  componentHeader(filter: { id: { eq: "108418376" } }) {
+    ...componentHeader
+  }
+  simpleComponentHeader: componentHeader(filter: { id: { eq: "189548101" } }) {
+    ...componentHeader
+  }
+  componentFooter(filter: { id: { eq: "105656969" } }) {
+    ...componentFooter
+  }
+  simpleComponentFooter: componentFooter(filter: { id: { eq: "189548118" } }) {
+    ...componentFooter
+  }
+  entityCompany(filter: { id: { eq: "103130761" } }) {
+    ...entityCompany
+  }
+}
+
+query BlogAllSlugs {
+  blogs1: allTemplateBlogs(filter: { hideFromListing: { eq: false } }, orderBy: publishDate_DESC, first: 100) {
+    id
+    slug
+  }
+  blogs2: allTemplateBlogs(
+    filter: { hideFromListing: { eq: false } }
+    orderBy: publishDate_DESC
+    first: 100
+    skip: 100
+  ) {
+    id
+    slug
+  }
+  blogs3: allTemplateBlogs(
+    filter: { hideFromListing: { eq: false } }
+    orderBy: publishDate_DESC
+    first: 100
+    skip: 200
+  ) {
+    id
+    slug
+  }
+  blogs4: allTemplateBlogs(
+    filter: { hideFromListing: { eq: false } }
+    orderBy: publishDate_DESC
+    first: 100
+    skip: 300
+  ) {
+    id
+    slug
+  }
+  blogs5: allTemplateBlogs(
+    filter: { hideFromListing: { eq: false } }
+    orderBy: publishDate_DESC
+    first: 100
+    skip: 400
+  ) {
+    id
+    slug
+  }
+}
+
+query BlogDetailData($slug: String) {
+  templateBlog(filter: { slug: { eq: $slug } }) {
+    ...templateBlog
+  }
+  componentConversionPanel(filter: { id: { eq: "106418881" } }) {
+    ...componentConversionPanel
+  }
+  related: allTemplateBlogs(filter: { slug: { neq: $slug } }, orderBy: publishDate_DESC, first: 4) {
+    ...templateBlogList
+  }
+}
+
+query CategoryBlogListing($category: String) {
+  blogList1: allTemplateBlogs(
+    orderBy: publishDate_DESC
+    first: 100
+    filter: { category: { eq: $category }, hideFromListing: { eq: false } }
+  ) {
+    ...templateBlogList
+  }
+  blogList2: allTemplateBlogs(
+    orderBy: publishDate_DESC
+    first: 100
+    skip: 100
+    filter: { category: { eq: $category }, hideFromListing: { eq: false } }
+  ) {
+    ...templateBlogList
+  }
+}
+
+query AllBlogListing {
+  blogList1: allTemplateBlogs(filter: { hideFromListing: { eq: false } }, orderBy: publishDate_DESC, first: 20) {
+    ...templateBlogList
+  }
+  blogList2: allTemplateBlogs(
+    filter: { hideFromListing: { eq: false } }
+    orderBy: publishDate_DESC
+    first: 100
+    skip: 100
+  ) {
+    ...templateBlogList
+  }
+  blogList3: allTemplateBlogs(
+    filter: { hideFromListing: { eq: false } }
+    orderBy: publishDate_DESC
+    first: 100
+    skip: 200
+  ) {
+    ...templateBlogList
+  }
+  blogList4: allTemplateBlogs(
+    filter: { hideFromListing: { eq: false } }
+    orderBy: publishDate_DESC
+    first: 100
+    skip: 300
+  ) {
+    ...templateBlogList
+  }
+  blogList5: allTemplateBlogs(
+    filter: { hideFromListing: { eq: false } }
+    orderBy: publishDate_DESC
+    first: 100
+    skip: 400
+  ) {
+    ...templateBlogList
+  }
+}
+
+query AllHideBlogListing {
+  allHideblogs: allTemplateBlogs(filter: { hideFromListing: { eq: true } }, orderBy: publishDate_DESC, first: 100) {
+    ...templateBlogList
+  }
+}
+
+query AllSimpleBlogListing {
+  blogList1: allTemplateBlogs(filter: { hideFromListing: { eq: false } }, orderBy: publishDate_DESC, first: 20) {
+    ...templateSimpleBlogList
+  }
+  blogList2: allTemplateBlogs(
+    filter: { hideFromListing: { eq: false } }
+    orderBy: publishDate_DESC
+    first: 100
+    skip: 100
+  ) {
+    ...templateSimpleBlogList
+  }
+  blogList3: allTemplateBlogs(
+    filter: { hideFromListing: { eq: false } }
+    orderBy: publishDate_DESC
+    first: 100
+    skip: 200
+  ) {
+    ...templateSimpleBlogList
+  }
+  blogList4: allTemplateBlogs(
+    filter: { hideFromListing: { eq: false } }
+    orderBy: publishDate_DESC
+    first: 100
+    skip: 300
+  ) {
+    ...templateSimpleBlogList
+  }
+  blogList5: allTemplateBlogs(
+    filter: { hideFromListing: { eq: false } }
+    orderBy: publishDate_DESC
+    first: 100
+    skip: 400
+  ) {
+    ...templateSimpleBlogList
+  }
+}
+
+query AllBlogListingPerPage($skip: IntType) {
+  allTemplateBlogs(filter: { hideFromListing: { eq: false } }, orderBy: publishDate_DESC, first: 10, skip: $skip) {
+    ...templateBlogList
+  }
+}
+
+query AllBlogListingPerPageWithSearchFilter($skip: IntType, $search: String!) {
+  allTemplateBlogs(
+    orderBy: publishDate_DESC
+    first: 10
+    skip: $skip
+    filter: { title: { matches: { pattern: $search } }, hideFromListing: { eq: false } }
+  ) {
+    ...templateBlogList
+  }
+}
+
+query AllAuthor {
+  allEntityPeople(first: "100") {
+    ...entityPerson
+  }
+}
+
+query AuthorAllSlugs {
+  allEntityPeople(first: "100") {
+    id
+    name
+    slug
+    externalLink
+  }
+}
+
+query AuthorDetailData($slug: String) {
+  entityPerson(filter: { slug: { eq: $slug } }) {
+    ...entityPerson
+  }
+}
+
+query GlossarySlugs {
+  glossarySlugs: allTemplateGlossaries(first: "100") {
+    id
+    categoryPage
+    slug
+    subcategoryPages {
+      id
+      slug
+    }
+  }
+}
+
+query allGlossaryData($slug: String) {
+  templateGlossary(filter: { slug: { eq: $slug } }) {
+    ...templateGlossary
+    subcategoryPages {
+      ...templateGlossary
+    }
+  }
+  glossaryNav: allTemplateGlossaries(orderBy: title_ASC, first: 100) {
+    id
+    slug
+    title
+    categoryPage
+    subcategoryPages {
+      id
+      slug
+      title
+    }
+  }
+  componentConversionPanel(filter: { id: { eq: "181928448" } }) {
+    ...componentConversionPanel
+  }
+}
+
+query AuthorRelatedData($id: ItemId) {
+  allTemplateBlogs(filter: { author: { eq: $id }, hideFromListing: { eq: false } }, orderBy: publishDate_DESC) {
+    ...refBlogCard
+  }
+  componentConversionPanel(filter: { id: { eq: "114210405" } }) {
+    ...componentConversionPanel
+  }
+}
+
+query AllTemplateCaseStudy {
+  allTemplateCaseStudies(first: "100") {
+    id
+    slug
+  }
+}
+
+query templateCaseStudyData($slug: String) {
+  templateCaseStudy(filter: { slug: { eq: $slug } }) {
+    ...templateCaseStudy
+  }
+  related: allTemplateCaseStudies(filter: { slug: { neq: $slug } }) {
+    ...templateCaseStudyList
+  }
+}
+
+query AllCaseStudyList {
+  allTemplateCaseStudies(first: "100") {
+    ...templateCaseStudyList
+  }
+}
+
+query AllWebinarList {
+  allTemplateExternalWebinars(first: "100") {
+    ...templateWebinar
+  }
+}
+
+query AllResourceList {
+  allTemplateResourcesExternals(first: "100") {
+    ...templateResources
+  }
+}
+
+query resourceData {
+  blogs: allTemplateBlogs(first: "10", filter: { hideFromListing: { eq: false } }, orderBy: publishDate_DESC) {
+    ...refBlogCard
+  }
+  tutorials: allTemplateBlogs(
+    first: "10"
+    filter: { hideFromListing: { eq: false }, category: { eq: "Tutorial" } }
+    orderBy: publishDate_DESC
+  ) {
+    ...refBlogCard
+  }
+  allTemplateCaseStudies(first: "10", orderBy: _createdAt_DESC) {
+    ...refTemplateCaseStudy
+  }
+  allTemplateResourcesExternals(first: "10", orderBy: _createdAt_DESC) {
+    ...templateResources
+  }
+  allTemplateExternalWebinars(first: "10", orderBy: _createdAt_DESC) {
+    ...templateWebinar
+  }
+}
+
+query changelogData {
+  allTemplateChangelogs(first: "100", orderBy: publishDate_DESC) {
+    ...templateChangelog
+  }
+}
+
+query ChangelogAllSlugs {
+  allTemplateChangelogs(first: "100") {
+    id
+    slug
+  }
+}
+
+query ChangelogDetailData($slug: String) {
+  templateChangelog(filter: { slug: { eq: $slug } }) {
+    ...templateChangelog
+  }
+  componentConversionPanel(filter: { id: { eq: "121471683" } }) {
+    ...componentConversionPanel
+  }
+}
+
+query AllTemplateNews {
+  allTemplateNews(first: "100") {
+    ...templateNews
+  }
+}
+
+query AllTemplateBuiltWithDeepgramSlug {
+  allTemplateBuiltWithDeepgrams(first: "100") {
+    id
+    slug
+  }
+}
+
+query AllTemplateBuiltWithDeepgram {
+  allTemplateBuiltWithDeepgrams(first: "100") {
+    ...templateBuiltWithDeepgramList
+  }
+}
+
+query AllTags {
+  allEntityTags(first: "100") {
+    ...entityTag
+  }
+}
+
+query BuiltWithDeepgramDetailData($slug: String) {
+  templateBuiltWithDeepgram(filter: { slug: { eq: $slug } }) {
+    ...templateBuiltWithDeepgram
+  }
+  componentConversionPanel(filter: { id: { eq: "106418881" } }) {
+    ...componentConversionPanel
+  }
+}
+
+query LegalDetailData($slug: String) {
+  templateLegal(filter: { slug: { eq: $slug } }) {
+    ...templateLegal
+  }
+  componentConversionPanel(filter: { id: { eq: "124135935" } }) {
+    ...componentConversionPanel
+  }
+}
+
+query LegalAllSlugs {
+  allTemplateLegals {
+    id
+    slug
+  }
+}
+
+query PodcastDetailData($slug: String) {
+  templatePodcast(filter: { slug: { eq: $slug } }) {
+    ...templatePodcast
+  }
+  componentConversionPanel(filter: { id: { eq: "124135935" } }) {
+    ...componentConversionPanel
+  }
+  related: allTemplatePodcasts(filter: { slug: { neq: $slug } }, first: "6") {
+    ...refTemplatePodcast
+  }
+}
+
+query AllPodcastSlugs {
+  allTemplatePodcasts {
+    id
+    slug
+  }
+}
+
+query AllPartnerSlugs {
+  allTemplatePartners {
+    id
+    slug
+  }
+}
+
+query AllPartnerList {
+  allTemplatePartners {
+    ...templatePartnerList
+  }
+}
+
+query PartnerDetailData($slug: String) {
+  templatePartner(filter: { slug: { eq: $slug } }) {
+    ...templatePartner
+  }
+  componentConversionPanel(filter: { id: { eq: "182695558" } }) {
+    ...componentConversionPanel
+  }
+  related: allTemplatePartners(filter: { slug: { neq: $slug } }, first: "6") {
+    ...templatePartnerList
+  }
+}
+
+query AllRedirects($slug: String) {
+  redirects: itemRedirect(filter: { originalSlug: { eq: $slug } }) {
+    newSlug
+    originalSlug
+  }
+}
+
+query BlogCategoryMeta($name: String) {
+  categoryMeta: allEntityCategories(filter: { categoryName: { eq: $name } }) {
+    ...entityCategory
+  }
+}
+
+query AllCustomPageMeta {
+  pageMetaData: customPageSeo {
+    metaData
+  }
+}
+
+query AllEvents {
+  allTemplateEventsDetails {
+    id
+    __typename
+    slug
+  }
+}
+
+query AllEventDetails($slug: String) {
+  templateEventsDetail(filter: { slug: { eq: $slug } }) {
+    ...templateEventsDetail
+  }
+}
+
+query PageMetaSeo($slug: String) {
+  templatePage(filter: { slug: { eq: $slug } }) {
+    seo {
+      ...seo
+    }
+  }
+}
+
+query rssChangelog {
+  allTemplateChangelogs(first: "100", orderBy: publishDate_DESC) {
+    id
+    title
+    description
+    seo {
+      ...seo
+    }
+    author {
+      ...entityPerson
+    }
+    slug
+    publishDate
+    category
+  }
+}
+
+query rssArticles {
+  allTemplateBlogs(filter: { hideFromListing: { eq: false } }, orderBy: publishDate_DESC, first: 5) {
+    id
+    slug
+    title
+    seo {
+      ...seo
+    }
+    author {
+      ...entityPerson
+    }
+    coAuthors {
+      ...entityPerson
+    }
+    category
+    excerpt
+    featuredImage {
+      ...file
+    }
+    publishDate
+  }
+}
+
+query rssArticlesByCategory($category: String) {
+  categoryBlogs: allTemplateBlogs(
+    filter: { hideFromListing: { eq: false }, category: { eq: $category } }
+    orderBy: publishDate_DESC
+    first: 5
+  ) {
+    id
+    slug
+    title
+    seo {
+      ...seo
+    }
+    author {
+      ...entityPerson
+    }
+    coAuthors {
+      ...entityPerson
+    }
+    category
+    excerpt
+    featuredImage {
+      ...file
+    }
+    publishDate
+  }
+}
